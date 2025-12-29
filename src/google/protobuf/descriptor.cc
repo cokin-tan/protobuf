@@ -5917,6 +5917,12 @@ void DescriptorBuilder::ResolveFeaturesImpl(
     descriptor->proto_features_ =
         tables_->InternFeatureSet(std::move(*options->mutable_features()));
     options->clear_features();
+
+    // Set options back to default instance if options are empty after features
+    // are stripped to help identify if an option is empty down the stack.
+    if (options->ByteSizeLong() == 0) {
+      descriptor->options_ = &DescriptorT::OptionsType::default_instance();
+    }
   }
 
   FeatureSet base_features = *descriptor->proto_features_;
