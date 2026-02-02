@@ -59,6 +59,7 @@ class MessageGenerator {
 
   // Generate definitions for this class and all its nested types.
   void GenerateClassDefinition(io::Printer* p);
+  void GenerateReflectionDataDefinition(io::Printer* p);
 
   // Generate definitions of inline methods (placed at the end of the header
   // file).

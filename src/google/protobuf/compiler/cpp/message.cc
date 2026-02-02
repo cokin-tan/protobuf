@@ -1591,7 +1591,6 @@ void MessageGenerator::GenerateImplDefinition(io::Printer* p) {
 
           p->Emit(R"cc(
             static $pb$::AccessListener<$Msg$> _tracker_;
-            static void TrackerOnGetMetadata() { $annotate_reflection$; }
           )cc");
         }},
        {"has_bits",
@@ -1897,6 +1896,15 @@ void MessageGenerator::GenerateClassDefinition(io::Printer* p) {
             }
             $nodiscard $static const $pb$::Reflection* $nonnull$ GetReflection() {
               return default_instance().GetMetadata().reflection;
+            }
+          )cc");
+        }},
+       {"tracker_on_get_metadata",
+        [&] {
+          if (!HasTracker(descriptor_, options_)) return;
+          p->Emit(R"cc(
+            static void TrackerOnGetMetadata() {
+              $annotate_reflection$;
             }
           )cc");
         }},
@@ -2250,6 +2258,7 @@ void MessageGenerator::GenerateClassDefinition(io::Printer* p) {
 
           $descriptor_accessor$;
           $get_descriptor$;
+          $tracker_on_get_metadata$;
           $nodiscard $static const $classname$& default_instance() {
             return *reinterpret_cast<const $classname$*>(&_$classname$_globals_);
           }
@@ -3986,7 +3995,8 @@ void MessageGenerator::GenerateClassData(io::Printer* p) {
   auto vars = p->WithVars(
       {{"default_instance",
         absl::StrCat("&", MsgGlobalsInstanceName(descriptor_, options_),
-                     "._default")}});
+                     "._default")},
+       {"index_in_file_messages", index_in_file_messages_}});
   const auto is_initialized = [&] {
     if (NeedsIsInitialized()) {
       p->Emit(R"cc(
@@ -4049,7 +4059,7 @@ void MessageGenerator::GenerateClassData(io::Printer* p) {
              [&] {
                if (HasTracker(descriptor_, options_)) {
                  p->Emit(R"cc(
-                   &Impl_::TrackerOnGetMetadata,
+                   &TrackerOnGetMetadata,
                  )cc");
                } else {
                  p->Emit(R"cc(
@@ -4060,6 +4070,7 @@ void MessageGenerator::GenerateClassData(io::Printer* p) {
         },
         R"cc(
           constexpr auto $classname$::InternalGenerateClassData_() {
+#ifdef PROTOBUF_MESSAGE_GLOBALS
             return $pbi$::ClassDataFull{
                 $pbi$::ClassData{
                     $default_instance$,
@@ -4075,10 +4086,28 @@ void MessageGenerator::GenerateClassData(io::Printer* p) {
                     false,
                     $v2_data$,
                 },
-                &$classname$::kDescriptorMethods,
+                &file_reflection_data[$index_in_file_messages$]};
+#else  // !PROTOBUF_MESSAGE_GLOBALS
+            return $pbi$::ClassDataFull{
+                $pbi$::ClassData{
+                    $default_instance$,
+                    &_table_.header,
+                    $is_initialized$,
+                    &$classname$::MergeImpl,
+                    $superclass$::GetNewImpl<$classname$>(),
+#if defined(PROTOBUF_CUSTOM_VTABLE)
+                    &$classname$::SharedDtor,
+                    $custom_vtable_methods$,
+#endif  // PROTOBUF_CUSTOM_VTABLE
+                    PROTOBUF_FIELD_OFFSET($classname$, $cached_size$),
+                    false,
+                    $v2_data$,
+                },
+                &::_pbi::kDescriptorMethods,
                 &$desc_table$,
                 $tracker_on_get_metadata$,
             };
+#endif  // PROTOBUF_MESSAGE_GLOBALS
           }
 
           PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 const

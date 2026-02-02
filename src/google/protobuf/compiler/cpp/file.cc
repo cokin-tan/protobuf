@@ -38,6 +38,7 @@
 #include "google/protobuf/compiler/cpp/names.h"
 #include "google/protobuf/compiler/cpp/options.h"
 #include "google/protobuf/compiler/cpp/service.h"
+#include "google/protobuf/compiler/cpp/tracker.h"
 #include "google/protobuf/compiler/retention.h"
 #include "google/protobuf/compiler/versions.h"
 #include "google/protobuf/descriptor.h"
@@ -883,6 +884,44 @@ void FileGenerator::GenerateSource(io::Printer* p) {
   CrossFileReferences refs;
   GetCrossFileReferencesForFile(file_, &refs);
   GenerateInternalForwardDeclarations(refs, p);
+
+  if (HasDescriptorMethods(file_, options_) && !message_generators_.empty()) {
+    p->Emit({{"reflection_data",
+              [&] {
+                for (const auto& generator : message_generators_) {
+                  p->Emit(
+                      {{"class",
+                        QualifiedClassName(generator->descriptor(), options_)},
+                       {"desc_table", p->LookupVar("desc_table")},
+                       {"tracker_on_get_metadata",
+                        [&] {
+                          if (HasTracker(generator->descriptor(), options_)) {
+                            p->Emit(R"cc(
+                              &$class$::TrackerOnGetMetadata,
+                            )cc");
+                          } else {
+                            p->Emit(R"cc(
+                              nullptr,  // tracker
+                            )cc");
+                          }
+                        }}},
+                      R"cc(
+                        // $class$
+                        {&::_pbi::kDescriptorMethods, &::$desc_table$, $tracker_on_get_metadata$},
+                      )cc");
+                }
+              }}},
+            R"cc(
+#ifdef PROTOBUF_MESSAGE_GLOBALS
+              namespace {
+              PROTOBUF_CONSTINIT ::google::protobuf::internal::ReflectionData
+                  file_reflection_data[] = {
+                      $reflection_data$,
+              };
+              }  // namespace
+#endif
+            )cc");
+  }
 
   // When in weak descriptor mode, we generate the file_default_instances before
   // the default instances.

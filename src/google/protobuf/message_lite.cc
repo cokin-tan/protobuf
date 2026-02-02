@@ -110,8 +110,12 @@ absl::string_view MessageLite::GetTypeName() const {
 
 absl::string_view TypeId::name() const {
   if (!data_->is_lite) {
-    // For !LITE messages, we use the descriptor method function.
+// For !LITE messages, we use the descriptor method function.
+#ifndef PROTOBUF_MESSAGE_GLOBALS
     return data_->full().descriptor_methods->get_type_name(data_);
+#else
+    return data_->full().descriptor_methods()->get_type_name(data_);
+#endif  // PROTOBUF_MESSAGE_GLOBALS
   }
 
   // For LITE messages, the type name is a char[] just beyond ClassData.
@@ -123,8 +127,13 @@ std::string MessageLite::InitializationErrorString() const {
   ABSL_DCHECK(data != nullptr);
 
   if (!data->is_lite) {
-    // For !LITE messages, we use the descriptor method function.
+// For !LITE messages, we use the descriptor method function.
+#ifndef PROTOBUF_MESSAGE_GLOBALS
     return data->full().descriptor_methods->initialization_error_string(*this);
+#else
+    return data->full().descriptor_methods()->initialization_error_string(
+        *this);
+#endif  // !PROTOBUF_MESSAGE_GLOBALS
   }
 
   return "(cannot determine missing fields for lite message)";
@@ -134,7 +143,11 @@ std::string MessageLite::DebugString() const {
   auto* data = GetClassData();
   ABSL_DCHECK(data != nullptr);
   if (!data->is_lite) {
+#ifndef PROTOBUF_MESSAGE_GLOBALS
     return data->full().descriptor_methods->debug_string(*this);
+#else
+    return data->full().descriptor_methods()->debug_string(*this);
+#endif  // !PROTOBUF_MESSAGE_GLOBALS
   }
 
   return absl::StrCat("MessageLite at 0x", absl::Hex(this));

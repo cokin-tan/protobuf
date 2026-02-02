@@ -82,6 +82,7 @@ class MessageTableTester;
 }  // namespace compiler
 
 namespace internal {
+struct DescriptorMethodsFriend;
 
 // TODO: Remove this once we have a better way to do this.
 PROTOBUF_EXPORT void GenericSwap(MessageLite* lhs, MessageLite* rhs);
@@ -483,6 +484,40 @@ struct PROTOBUF_EXPORT DescriptorMethods {
   std::string (*debug_string)(const MessageLite&);
 };
 
+// ClassData* can and should be placed on read-only section to maximize sharing.
+// However, ClassDataFull has mutable fields for lazy initialization of
+// reflection related data. To keep the lazy initialization and to move the
+// ClassDataFull to the read-only section we use a secondary table. Extra
+// indirection should be tolerable considering that reflection isn't performance
+// critical.
+struct PROTOBUF_EXPORT ReflectionData {
+  constexpr ReflectionData(const DescriptorMethods* descriptor_methods,
+                           const internal::DescriptorTable* descriptor_table,
+                           void (*get_metadata_tracker)())
+      : reflection(nullptr),
+        descriptor(nullptr),
+        descriptor_table(descriptor_table),
+        descriptor_methods(descriptor_methods),
+        get_metadata_tracker(get_metadata_tracker) {}
+
+  // Accesses are protected by the once_flag in `descriptor_table`. When the
+  // table is null these are populated from the beginning and need to
+  // protection.
+  const Reflection* reflection;
+  const Descriptor* descriptor;
+
+  // Codegen types will provide a DescriptorTable to do lazy
+  // registration/initialization of the reflection objects.
+  // Other types, like DynamicMessage, keep the table as null but eagerly
+  // populate `reflection`/`descriptor` fields.
+  const internal::DescriptorTable* descriptor_table;
+  const DescriptorMethods* descriptor_methods;
+  // When an access tracker is installed, this function notifies the tracker
+  // that GetMetadata was called.
+  void (*get_metadata_tracker)();
+};
+
+#ifndef PROTOBUF_MESSAGE_GLOBALS
 struct PROTOBUF_EXPORT ClassDataFull : ClassData {
   constexpr ClassDataFull(ClassData base,
                           const DescriptorMethods* descriptor_methods,
@@ -513,6 +548,27 @@ struct PROTOBUF_EXPORT ClassDataFull : ClassData {
   // that GetMetadata was called.
   void (*get_metadata_tracker)();
 };
+#else
+struct PROTOBUF_EXPORT ClassDataFull : ClassData {
+  constexpr ClassDataFull(ClassData base, ReflectionData* reflection_data)
+      : ClassData(base), reflection_data(reflection_data) {}
+
+  constexpr const ClassData* base() const { return this; }
+
+  // Accessors for reflection related data.
+  const Reflection* reflection() const { return reflection_data->reflection; }
+  const Descriptor* descriptor() const { return reflection_data->descriptor; }
+  const internal::DescriptorTable* descriptor_table() const {
+    return reflection_data->descriptor_table;
+  }
+  const DescriptorMethods* descriptor_methods() const {
+    return reflection_data->descriptor_methods;
+  }
+  void get_metadata_tracker() const { reflection_data->get_metadata_tracker(); }
+
+  ReflectionData* reflection_data;
+};
+#endif  // PROTOBUF_MESSAGE_GLOBALS
 
 inline const ClassDataFull& ClassData::full() const {
   ABSL_DCHECK(!is_lite);
@@ -958,6 +1014,8 @@ class PROTOBUF_EXPORT MessageLite {
     }
   }
 
+  friend struct internal::DescriptorMethodsFriend;
+
 #if defined(PROTOBUF_CUSTOM_VTABLE)
   template <typename T>
   static constexpr auto GetClearImpl() {
@@ -1006,7 +1064,11 @@ class PROTOBUF_EXPORT MessageLite {
     auto* tc_table = data->tc_table;
     if (ABSL_PREDICT_FALSE(tc_table == nullptr)) {
       ABSL_DCHECK(!data->is_lite);
+#ifndef PROTOBUF_MESSAGE_GLOBALS
       return data->full().descriptor_methods->get_tc_table(*this);
+#else
+      return data->full().descriptor_methods()->get_tc_table(*this);
+#endif  // PROTOBUF_MESSAGE_GLOBALS
     }
     return tc_table;
   }

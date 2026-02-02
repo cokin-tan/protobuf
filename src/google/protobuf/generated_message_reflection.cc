@@ -3883,8 +3883,9 @@ class AssignDescriptorsHelper {
     // without updating the reflection.
     if (default_instance_data_[0] != nullptr) {
       auto& class_data = default_instance_data_[0]->GetClassData()->full();
-      // If there is no descriptor_table in the class data, then it is not
-      // interested in receiving reflection information either.
+// If there is no descriptor_table in the class data, then it is not
+// interested in receiving reflection information either.
+#ifndef PROTOBUF_MESSAGE_GLOBALS
       if (class_data.descriptor_table != nullptr) {
         class_data.descriptor = descriptor;
 
@@ -3894,6 +3895,17 @@ class AssignDescriptorsHelper {
                                         *schemas_),
             DescriptorPool::internal_generated_pool(), factory_));
       }
+#else   // !PROTOBUF_MESSAGE_GLOBALS
+      if (class_data.descriptor_table() != nullptr) {
+        class_data.reflection_data->descriptor = descriptor;
+        class_data.reflection_data->reflection =
+            OnShutdownDelete(new Reflection(
+                descriptor,
+                MigrationToReflectionSchema(default_instance_data_, offsets_,
+                                            *schemas_),
+                DescriptorPool::internal_generated_pool(), factory_));
+      }
+#endif  // PROTOBUF_MESSAGE_GLOBALS
     }
     for (int i = 0; i < descriptor->enum_type_count(); i++) {
       AssignEnumDescriptor(descriptor->enum_type(i));
