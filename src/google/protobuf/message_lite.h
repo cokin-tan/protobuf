@@ -82,6 +82,7 @@ class MessageTableTester;
 }  // namespace compiler
 
 namespace internal {
+struct DescriptorMethodsFriend;
 
 // TODO: Remove this once we have a better way to do this.
 PROTOBUF_EXPORT void GenericSwap(MessageLite* lhs, MessageLite* rhs);
@@ -957,6 +958,8 @@ class PROTOBUF_EXPORT MessageLite {
       return internal::MessageCreator(&T::PlacementNew_, sizeof(T), alignof(T));
     }
   }
+
+  friend struct internal::DescriptorMethodsFriend;
 
 #if defined(PROTOBUF_CUSTOM_VTABLE)
   template <typename T>
