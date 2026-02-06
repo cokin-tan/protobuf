@@ -116,6 +116,17 @@ void RepeatedMessageFieldGenerator::WriteToString(io::Printer* printer) {
     "PrintField(\"$field_name$\", $name$_, writer);\n");
 }
 
+/// custom add code
+void RepeatedMessageFieldGenerator::GenerateReleasingCode(
+    io::Printer* printer) {
+  printer->Print(variables_,
+                 "for (int i = 0; i < $name$_.Count; i++) {\n"
+                 "  $name$_[i].Dispose();\n"
+                 "}\n"
+                 "$name$_.Clear();\n");
+}
+/// end custom add
+
 void RepeatedMessageFieldGenerator::GenerateCloningCode(io::Printer* printer) {
   printer->Print(variables_,
     "$name$_ = other.$name$_.Clone();\n");

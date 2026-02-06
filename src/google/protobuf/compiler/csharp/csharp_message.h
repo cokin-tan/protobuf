@@ -30,6 +30,10 @@ class MessageGenerator : public SourceGeneratorBase {
   MessageGenerator(const MessageGenerator&) = delete;
   MessageGenerator& operator=(const MessageGenerator&) = delete;
 
+  /// custom add code
+  void GenerateReleasingCode(io::Printer* printer);
+  /// end custom add
+
   void GenerateCloningCode(io::Printer* printer);
   void GenerateFreezingCode(io::Printer* printer);
   void GenerateFrameworkMethods(io::Printer* printer);

@@ -26,6 +26,10 @@ class MapFieldGenerator : public FieldGeneratorBase {
   MapFieldGenerator(const MapFieldGenerator&) = delete;
   MapFieldGenerator& operator=(const MapFieldGenerator&) = delete;
 
+  /// custom add code
+  void GenerateReleasingCode(io::Printer* printer) override;
+  /// end custom add
+
   void GenerateCloningCode(io::Printer* printer) override;
   void GenerateFreezingCode(io::Printer* printer) override;
   void GenerateMembers(io::Printer* printer) override;

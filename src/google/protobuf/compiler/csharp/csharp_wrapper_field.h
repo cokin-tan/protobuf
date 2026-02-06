@@ -28,6 +28,10 @@ class WrapperFieldGenerator : public FieldGeneratorBase {
   WrapperFieldGenerator(const WrapperFieldGenerator&) = delete;
   WrapperFieldGenerator& operator=(const WrapperFieldGenerator&) = delete;
 
+  /// custom add code
+  void GenerateReleasingCode(io::Printer* printer) override;
+  /// end custom add
+
   void GenerateCodecCode(io::Printer* printer) override;
   void GenerateCloningCode(io::Printer* printer) override;
   void GenerateMembers(io::Printer* printer) override;

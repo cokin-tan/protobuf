@@ -28,6 +28,10 @@ class PrimitiveFieldGenerator : public FieldGeneratorBase {
   PrimitiveFieldGenerator(const PrimitiveFieldGenerator&) = delete;
   PrimitiveFieldGenerator& operator=(const PrimitiveFieldGenerator&) = delete;
 
+  /// custom add code
+  void GenerateReleasingCode(io::Printer* printer);
+  /// end custom add
+
   void GenerateCodecCode(io::Printer* printer) override;
   void GenerateCloningCode(io::Printer* printer) override;
   void GenerateMembers(io::Printer* printer) override;
@@ -55,6 +59,10 @@ class PrimitiveOneofFieldGenerator : public PrimitiveFieldGenerator {
   PrimitiveOneofFieldGenerator(const PrimitiveOneofFieldGenerator&) = delete;
   PrimitiveOneofFieldGenerator& operator=(const PrimitiveOneofFieldGenerator&) =
       delete;
+
+  /// custom add code
+  void GenerateReleasingCode(io::Printer* printer);
+  /// end custom add
 
   void GenerateCloningCode(io::Printer* printer) override;
   void GenerateMembers(io::Printer* printer) override;

@@ -99,6 +99,12 @@ void RepeatedEnumFieldGenerator::WriteToString(io::Printer* printer) {
     "PrintField(\"$descriptor_name$\", $name$_, writer);\n");
 }
 
+/// custom add code
+void RepeatedEnumFieldGenerator::GenerateReleasingCode(io::Printer* printer) {
+  printer->Print(variables_, "$name$_.Clear();\n");
+}
+/// end custom add
+
 void RepeatedEnumFieldGenerator::GenerateCloningCode(io::Printer* printer) {
   printer->Print(variables_,
     "$name$_ = other.$name$_.Clone();\n");

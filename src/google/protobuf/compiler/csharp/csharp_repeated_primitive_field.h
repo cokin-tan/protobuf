@@ -25,6 +25,10 @@ class RepeatedPrimitiveFieldGenerator : public FieldGeneratorBase {
   RepeatedPrimitiveFieldGenerator(const RepeatedPrimitiveFieldGenerator&) = delete;
   RepeatedPrimitiveFieldGenerator& operator=(const RepeatedPrimitiveFieldGenerator&) = delete;
 
+  /// custom add code
+  void GenerateReleasingCode(io::Printer* printer) override;
+  /// end custom add
+
   void GenerateCloningCode(io::Printer* printer) override;
   void GenerateFreezingCode(io::Printer* printer) override;
   void GenerateMembers(io::Printer* printer) override;

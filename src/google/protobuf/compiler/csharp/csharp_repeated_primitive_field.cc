@@ -97,6 +97,13 @@ void RepeatedPrimitiveFieldGenerator::WriteToString(io::Printer* printer) {
     "PrintField(\"$descriptor_name$\", $name$_, writer);\n");
 }
 
+/// custom add code
+void RepeatedPrimitiveFieldGenerator::GenerateReleasingCode(
+    io::Printer* printer) {
+  printer->Print(variables_, "$name$_.Clear();\n");
+}
+/// end custom add
+
 void RepeatedPrimitiveFieldGenerator::GenerateCloningCode(io::Printer* printer) {
   printer->Print(variables_,
     "$name$_ = other.$name$_.Clone();\n");

@@ -75,7 +75,9 @@ void MessageFieldGenerator::GenerateMergingCode(io::Printer* printer) {
     variables_,
     "if (other.$has_property_check$) {\n"
     "  if ($has_not_property_check$) {\n"
-    "    $property_name$ = new $type_name$();\n"
+    /// custom add code
+    "    $property_name$ = $type_name$.AllocFromPool();\n"
+    /// end custom add
     "  }\n"
     "  $property_name$.MergeFrom(other.$property_name$);\n"
     "}\n");
@@ -85,7 +87,9 @@ void MessageFieldGenerator::GenerateParsingCode(io::Printer* printer) {
   printer->Print(
     variables_,
     "if ($has_not_property_check$) {\n"
-    "  $property_name$ = new $type_name$();\n"
+    /// custom add code
+    "  $property_name$ = $type_name$.AllocFromPool();\n"
+    /// end custom add
     "}\n");
   if (descriptor_->type() == FieldDescriptor::Type::TYPE_MESSAGE) {
     printer->Print(variables_, "input.ReadMessage($property_name$);\n");
@@ -155,6 +159,17 @@ void MessageFieldGenerator::GenerateExtensionCode(io::Printer* printer) {
   GenerateCodecCode(printer);
   printer->Print(");\n");
 }
+
+/// custom add code
+void MessageFieldGenerator::GenerateReleasingCode(io::Printer* printer) {
+  printer->Print(variables_,
+                 "if ($has_property_check$) {\n"
+                 "  $name$_.Dispose();\n"
+                 "  $name$_ = null;\n"
+                 "}\n");
+}
+/// end custom add
+
 void MessageFieldGenerator::GenerateCloningCode(io::Printer* printer) {
   printer->Print(variables_,
     "$name$_ = other.$has_property_check$ ? other.$name$_.Clone() : null;\n");
@@ -224,7 +239,9 @@ void MessageOneofFieldGenerator::GenerateMembers(io::Printer* printer) {
 void MessageOneofFieldGenerator::GenerateMergingCode(io::Printer* printer) {
   printer->Print(variables_,
     "if ($property_name$ == null) {\n"
-    "  $property_name$ = new $type_name$();\n"
+    /// custom add code
+    "  $property_name$ = $type_name$.AllocFromPool();\n"
+    /// end custom add
     "}\n"
     "$property_name$.MergeFrom(other.$property_name$);\n");
 }
@@ -233,7 +250,9 @@ void MessageOneofFieldGenerator::GenerateParsingCode(io::Printer* printer) {
   // TODO: We may be able to do better than this
   printer->Print(
     variables_,
-    "$type_name$ subBuilder = new $type_name$();\n"
+    /// custom add code
+    "$type_name$ subBuilder = $type_name$.AllocFromPool();\n"
+    /// end custom add
     "if ($has_property_check$) {\n"
     "  subBuilder.MergeFrom($property_name$);\n"
     "}\n");
@@ -250,6 +269,13 @@ void MessageOneofFieldGenerator::WriteToString(io::Printer* printer) {
     variables_,
     "PrintField(\"$descriptor_name$\", $has_property_check$, $oneof_name$_, writer);\n");
 }
+
+/// custom add code
+void MessageOneofFieldGenerator::GenerateReleasingCode(io::Printer* printer) {
+  // field will be set by Clear$OneOfField$() method
+  printer->Print(variables_, "$property_name$.Dispose();\n");
+}
+/// end custom add
 
 void MessageOneofFieldGenerator::GenerateCloningCode(io::Printer* printer) {
   printer->Print(variables_,

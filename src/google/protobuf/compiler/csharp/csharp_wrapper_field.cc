@@ -157,6 +157,12 @@ void WrapperFieldGenerator::WriteToString(io::Printer* printer) {
   // TODO: Implement if we ever actually need it...
 }
 
+/// custom add code
+void WrapperFieldGenerator::GenerateReleasingCode(io::Printer* printer) {
+  printer->Print(variables_, "$property_name$ = null;\n");
+}
+/// end custom add
+
 void WrapperFieldGenerator::GenerateCloningCode(io::Printer* printer) {
   printer->Print(variables_,
     "$property_name$ = other.$property_name$;\n");
