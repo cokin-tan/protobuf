@@ -102,177 +102,172 @@ namespace Google.Protobuf.Reflection {
             "DAoEbmFtZRgBIAEoCRISCgppbnB1dF90eXBlGAIgASgJEhMKC291dHB1dF90",
             "eXBlGAMgASgJEi8KB29wdGlvbnMYBCABKAsyHi5nb29nbGUucHJvdG9idWYu",
             "TWV0aG9kT3B0aW9ucxIfChBjbGllbnRfc3RyZWFtaW5nGAUgASgIOgVmYWxz",
-            "ZRIfChBzZXJ2ZXJfc3RyZWFtaW5nGAYgASgIOgVmYWxzZSKQCAoLRmlsZU9w",
+            "ZRIfChBzZXJ2ZXJfc3RyZWFtaW5nGAYgASgIOgVmYWxzZSLLBgoLRmlsZU9w",
             "dGlvbnMSFAoMamF2YV9wYWNrYWdlGAEgASgJEhwKFGphdmFfb3V0ZXJfY2xh",
-            "c3NuYW1lGAggASgJEuYBChNqYXZhX211bHRpcGxlX2ZpbGVzGAogASgIOgVm",
-            "YWxzZULBAbIBvQEI5gcg6QcqtAFUaGlzIGJlaGF2aW9yIGlzIGVuYWJsZWQg",
-            "YnkgZGVmYXVsdCBpbiBlZGl0aW9ucyAyMDI0IGFuZCBhYm92ZS4gVG8gZGlz",
-            "YWJsZSBpdCwgeW91IGNhbiBzZXQgYGZlYXR1cmVzLihwYi5qYXZhKS5uZXN0",
-            "X2luX2ZpbGVfY2xhc3MgPSBZRVNgIG9uIGluZGl2aWR1YWwgbWVzc2FnZXMs",
-            "IGVudW1zLCBvciBzZXJ2aWNlcy4SKQodamF2YV9nZW5lcmF0ZV9lcXVhbHNf",
-            "YW5kX2hhc2gYFCABKAhCAhgBEiUKFmphdmFfc3RyaW5nX2NoZWNrX3V0ZjgY",
-            "GyABKAg6BWZhbHNlEkYKDG9wdGltaXplX2ZvchgJIAEoDjIpLmdvb2dsZS5w",
-            "cm90b2J1Zi5GaWxlT3B0aW9ucy5PcHRpbWl6ZU1vZGU6BVNQRUVEEhIKCmdv",
-            "X3BhY2thZ2UYCyABKAkSIgoTY2NfZ2VuZXJpY19zZXJ2aWNlcxgQIAEoCDoF",
-            "ZmFsc2USJAoVamF2YV9nZW5lcmljX3NlcnZpY2VzGBEgASgIOgVmYWxzZRIi",
-            "ChNweV9nZW5lcmljX3NlcnZpY2VzGBIgASgIOgVmYWxzZRIZCgpkZXByZWNh",
-            "dGVkGBcgASgIOgVmYWxzZRIeChBjY19lbmFibGVfYXJlbmFzGB8gASgIOgR0",
-            "cnVlEhkKEW9iamNfY2xhc3NfcHJlZml4GCQgASgJEhgKEGNzaGFycF9uYW1l",
-            "c3BhY2UYJSABKAkSFAoMc3dpZnRfcHJlZml4GCcgASgJEhgKEHBocF9jbGFz",
-            "c19wcmVmaXgYKCABKAkSFQoNcGhwX25hbWVzcGFjZRgpIAEoCRIeChZwaHBf",
-            "bWV0YWRhdGFfbmFtZXNwYWNlGCwgASgJEhQKDHJ1YnlfcGFja2FnZRgtIAEo",
-            "CRItCghmZWF0dXJlcxgyIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5GZWF0dXJl",
-            "U2V0EkMKFHVuaW50ZXJwcmV0ZWRfb3B0aW9uGOcHIAMoCzIkLmdvb2dsZS5w",
-            "cm90b2J1Zi5VbmludGVycHJldGVkT3B0aW9uIjoKDE9wdGltaXplTW9kZRIJ",
-            "CgVTUEVFRBABEg0KCUNPREVfU0laRRACEhAKDExJVEVfUlVOVElNRRADKgkI",
-            "6AcQgICAgAJKBAgqECtKBAgmECdSFHBocF9nZW5lcmljX3NlcnZpY2VzIucC",
-            "Cg5NZXNzYWdlT3B0aW9ucxImChdtZXNzYWdlX3NldF93aXJlX2Zvcm1hdBgB",
-            "IAEoCDoFZmFsc2USLgofbm9fc3RhbmRhcmRfZGVzY3JpcHRvcl9hY2Nlc3Nv",
-            "chgCIAEoCDoFZmFsc2USGQoKZGVwcmVjYXRlZBgDIAEoCDoFZmFsc2USEQoJ",
-            "bWFwX2VudHJ5GAcgASgIEjIKJmRlcHJlY2F0ZWRfbGVnYWN5X2pzb25fZmll",
-            "bGRfY29uZmxpY3RzGAsgASgIQgIYARItCghmZWF0dXJlcxgMIAEoCzIbLmdv",
-            "b2dsZS5wcm90b2J1Zi5GZWF0dXJlU2V0EkMKFHVuaW50ZXJwcmV0ZWRfb3B0",
-            "aW9uGOcHIAMoCzIkLmdvb2dsZS5wcm90b2J1Zi5VbmludGVycHJldGVkT3B0",
-            "aW9uKgkI6AcQgICAgAJKBAgEEAVKBAgFEAZKBAgGEAdKBAgIEAlKBAgJEAoi",
-            "vgsKDEZpZWxkT3B0aW9ucxI6CgVjdHlwZRgBIAEoDjIjLmdvb2dsZS5wcm90",
-            "b2J1Zi5GaWVsZE9wdGlvbnMuQ1R5cGU6BlNUUklORxIOCgZwYWNrZWQYAiAB",
-            "KAgSPwoGanN0eXBlGAYgASgOMiQuZ29vZ2xlLnByb3RvYnVmLkZpZWxkT3B0",
-            "aW9ucy5KU1R5cGU6CUpTX05PUk1BTBITCgRsYXp5GAUgASgIOgVmYWxzZRIe",
-            "Cg91bnZlcmlmaWVkX2xhenkYDyABKAg6BWZhbHNlEhkKCmRlcHJlY2F0ZWQY",
-            "AyABKAg6BWZhbHNlEhcKBHdlYWsYCiABKAg6BWZhbHNlQgIYARIbCgxkZWJ1",
-            "Z19yZWRhY3QYECABKAg6BWZhbHNlEkAKCXJldGVudGlvbhgRIAEoDjItLmdv",
-            "b2dsZS5wcm90b2J1Zi5GaWVsZE9wdGlvbnMuT3B0aW9uUmV0ZW50aW9uEj8K",
-            "B3RhcmdldHMYEyADKA4yLi5nb29nbGUucHJvdG9idWYuRmllbGRPcHRpb25z",
-            "Lk9wdGlvblRhcmdldFR5cGUSRgoQZWRpdGlvbl9kZWZhdWx0cxgUIAMoCzIs",
-            "Lmdvb2dsZS5wcm90b2J1Zi5GaWVsZE9wdGlvbnMuRWRpdGlvbkRlZmF1bHQS",
-            "LQoIZmVhdHVyZXMYFSABKAsyGy5nb29nbGUucHJvdG9idWYuRmVhdHVyZVNl",
-            "dBJFCg9mZWF0dXJlX3N1cHBvcnQYFiABKAsyLC5nb29nbGUucHJvdG9idWYu",
-            "RmllbGRPcHRpb25zLkZlYXR1cmVTdXBwb3J0EkMKFHVuaW50ZXJwcmV0ZWRf",
-            "b3B0aW9uGOcHIAMoCzIkLmdvb2dsZS5wcm90b2J1Zi5VbmludGVycHJldGVk",
-            "T3B0aW9uGkoKDkVkaXRpb25EZWZhdWx0EikKB2VkaXRpb24YAyABKA4yGC5n",
-            "b29nbGUucHJvdG9idWYuRWRpdGlvbhINCgV2YWx1ZRgCIAEoCRrjAQoORmVh",
-            "dHVyZVN1cHBvcnQSNAoSZWRpdGlvbl9pbnRyb2R1Y2VkGAEgASgOMhguZ29v",
-            "Z2xlLnByb3RvYnVmLkVkaXRpb24SNAoSZWRpdGlvbl9kZXByZWNhdGVkGAIg",
-            "ASgOMhguZ29vZ2xlLnByb3RvYnVmLkVkaXRpb24SGwoTZGVwcmVjYXRpb25f",
-            "d2FybmluZxgDIAEoCRIxCg9lZGl0aW9uX3JlbW92ZWQYBCABKA4yGC5nb29n",
-            "bGUucHJvdG9idWYuRWRpdGlvbhIVCg1yZW1vdmFsX2Vycm9yGAUgASgJIi8K",
-            "BUNUeXBlEgoKBlNUUklORxAAEggKBENPUkQQARIQCgxTVFJJTkdfUElFQ0UQ",
-            "AiI1CgZKU1R5cGUSDQoJSlNfTk9STUFMEAASDQoJSlNfU1RSSU5HEAESDQoJ",
-            "SlNfTlVNQkVSEAIiVQoPT3B0aW9uUmV0ZW50aW9uEhUKEVJFVEVOVElPTl9V",
-            "TktOT1dOEAASFQoRUkVURU5USU9OX1JVTlRJTUUQARIUChBSRVRFTlRJT05f",
-            "U09VUkNFEAIijAIKEE9wdGlvblRhcmdldFR5cGUSFwoTVEFSR0VUX1RZUEVf",
-            "VU5LTk9XThAAEhQKEFRBUkdFVF9UWVBFX0ZJTEUQARIfChtUQVJHRVRfVFlQ",
-            "RV9FWFRFTlNJT05fUkFOR0UQAhIXChNUQVJHRVRfVFlQRV9NRVNTQUdFEAMS",
-            "FQoRVEFSR0VUX1RZUEVfRklFTEQQBBIVChFUQVJHRVRfVFlQRV9PTkVPRhAF",
-            "EhQKEFRBUkdFVF9UWVBFX0VOVU0QBhIaChZUQVJHRVRfVFlQRV9FTlVNX0VO",
-            "VFJZEAcSFwoTVEFSR0VUX1RZUEVfU0VSVklDRRAIEhYKElRBUkdFVF9UWVBF",
-            "X01FVEhPRBAJKgkI6AcQgICAgAJKBAgEEAVKBAgSEBMijQEKDE9uZW9mT3B0",
-            "aW9ucxItCghmZWF0dXJlcxgBIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5GZWF0",
-            "dXJlU2V0EkMKFHVuaW50ZXJwcmV0ZWRfb3B0aW9uGOcHIAMoCzIkLmdvb2ds",
-            "ZS5wcm90b2J1Zi5VbmludGVycHJldGVkT3B0aW9uKgkI6AcQgICAgAIi9gEK",
-            "C0VudW1PcHRpb25zEhMKC2FsbG93X2FsaWFzGAIgASgIEhkKCmRlcHJlY2F0",
-            "ZWQYAyABKAg6BWZhbHNlEjIKJmRlcHJlY2F0ZWRfbGVnYWN5X2pzb25fZmll",
-            "bGRfY29uZmxpY3RzGAYgASgIQgIYARItCghmZWF0dXJlcxgHIAEoCzIbLmdv",
-            "b2dsZS5wcm90b2J1Zi5GZWF0dXJlU2V0EkMKFHVuaW50ZXJwcmV0ZWRfb3B0",
-            "aW9uGOcHIAMoCzIkLmdvb2dsZS5wcm90b2J1Zi5VbmludGVycHJldGVkT3B0",
-            "aW9uKgkI6AcQgICAgAJKBAgFEAYikAIKEEVudW1WYWx1ZU9wdGlvbnMSGQoK",
-            "ZGVwcmVjYXRlZBgBIAEoCDoFZmFsc2USLQoIZmVhdHVyZXMYAiABKAsyGy5n",
-            "b29nbGUucHJvdG9idWYuRmVhdHVyZVNldBIbCgxkZWJ1Z19yZWRhY3QYAyAB",
-            "KAg6BWZhbHNlEkUKD2ZlYXR1cmVfc3VwcG9ydBgEIAEoCzIsLmdvb2dsZS5w",
-            "cm90b2J1Zi5GaWVsZE9wdGlvbnMuRmVhdHVyZVN1cHBvcnQSQwoUdW5pbnRl",
-            "cnByZXRlZF9vcHRpb24Y5wcgAygLMiQuZ29vZ2xlLnByb3RvYnVmLlVuaW50",
-            "ZXJwcmV0ZWRPcHRpb24qCQjoBxCAgICAAiKqAQoOU2VydmljZU9wdGlvbnMS",
-            "LQoIZmVhdHVyZXMYIiABKAsyGy5nb29nbGUucHJvdG9idWYuRmVhdHVyZVNl",
-            "dBIZCgpkZXByZWNhdGVkGCEgASgIOgVmYWxzZRJDChR1bmludGVycHJldGVk",
-            "X29wdGlvbhjnByADKAsyJC5nb29nbGUucHJvdG9idWYuVW5pbnRlcnByZXRl",
-            "ZE9wdGlvbioJCOgHEICAgIACItwCCg1NZXRob2RPcHRpb25zEhkKCmRlcHJl",
-            "Y2F0ZWQYISABKAg6BWZhbHNlEl8KEWlkZW1wb3RlbmN5X2xldmVsGCIgASgO",
-            "Mi8uZ29vZ2xlLnByb3RvYnVmLk1ldGhvZE9wdGlvbnMuSWRlbXBvdGVuY3lM",
-            "ZXZlbDoTSURFTVBPVEVOQ1lfVU5LTk9XThItCghmZWF0dXJlcxgjIAEoCzIb",
-            "Lmdvb2dsZS5wcm90b2J1Zi5GZWF0dXJlU2V0EkMKFHVuaW50ZXJwcmV0ZWRf",
-            "b3B0aW9uGOcHIAMoCzIkLmdvb2dsZS5wcm90b2J1Zi5VbmludGVycHJldGVk",
-            "T3B0aW9uIlAKEElkZW1wb3RlbmN5TGV2ZWwSFwoTSURFTVBPVEVOQ1lfVU5L",
-            "Tk9XThAAEhMKD05PX1NJREVfRUZGRUNUUxABEg4KCklERU1QT1RFTlQQAioJ",
-            "COgHEICAgIACIp4CChNVbmludGVycHJldGVkT3B0aW9uEjsKBG5hbWUYAiAD",
-            "KAsyLS5nb29nbGUucHJvdG9idWYuVW5pbnRlcnByZXRlZE9wdGlvbi5OYW1l",
-            "UGFydBIYChBpZGVudGlmaWVyX3ZhbHVlGAMgASgJEhoKEnBvc2l0aXZlX2lu",
-            "dF92YWx1ZRgEIAEoBBIaChJuZWdhdGl2ZV9pbnRfdmFsdWUYBSABKAMSFAoM",
-            "ZG91YmxlX3ZhbHVlGAYgASgBEhQKDHN0cmluZ192YWx1ZRgHIAEoDBIXCg9h",
-            "Z2dyZWdhdGVfdmFsdWUYCCABKAkaMwoITmFtZVBhcnQSEQoJbmFtZV9wYXJ0",
-            "GAEgAigJEhQKDGlzX2V4dGVuc2lvbhgCIAIoCCKDDgoKRmVhdHVyZVNldBKC",
-            "AQoOZmllbGRfcHJlc2VuY2UYASABKA4yKS5nb29nbGUucHJvdG9idWYuRmVh",
-            "dHVyZVNldC5GaWVsZFByZXNlbmNlQj+IAQGYAQSYAQGiAQ0SCEVYUExJQ0lU",
-            "GIQHogENEghJTVBMSUNJVBjnB6IBDRIIRVhQTElDSVQY6AeyAQMI6AcSYgoJ",
-            "ZW51bV90eXBlGAIgASgOMiQuZ29vZ2xlLnByb3RvYnVmLkZlYXR1cmVTZXQu",
-            "RW51bVR5cGVCKYgBAZgBBpgBAaIBCxIGQ0xPU0VEGIQHogEJEgRPUEVOGOcH",
-            "sgEDCOgHEoEBChdyZXBlYXRlZF9maWVsZF9lbmNvZGluZxgDIAEoDjIxLmdv",
-            "b2dsZS5wcm90b2J1Zi5GZWF0dXJlU2V0LlJlcGVhdGVkRmllbGRFbmNvZGlu",
-            "Z0ItiAEBmAEEmAEBogENEghFWFBBTkRFRBiEB6IBCxIGUEFDS0VEGOcHsgED",
-            "COgHEm4KD3V0ZjhfdmFsaWRhdGlvbhgEIAEoDjIqLmdvb2dsZS5wcm90b2J1",
-            "Zi5GZWF0dXJlU2V0LlV0ZjhWYWxpZGF0aW9uQimIAQGYAQSYAQGiAQkSBE5P",
-            "TkUYhAeiAQsSBlZFUklGWRjnB7IBAwjoBxJtChBtZXNzYWdlX2VuY29kaW5n",
-            "GAUgASgOMisuZ29vZ2xlLnByb3RvYnVmLkZlYXR1cmVTZXQuTWVzc2FnZUVu",
-            "Y29kaW5nQiaIAQGYAQSYAQGiARQSD0xFTkdUSF9QUkVGSVhFRBiEB7IBAwjo",
-            "BxJ2Cgtqc29uX2Zvcm1hdBgGIAEoDjImLmdvb2dsZS5wcm90b2J1Zi5GZWF0",
-            "dXJlU2V0Lkpzb25Gb3JtYXRCOYgBAZgBA5gBBpgBAaIBFxISTEVHQUNZX0JF",
-            "U1RfRUZGT1JUGIQHogEKEgVBTExPVxjnB7IBAwjoBxKXAQoUZW5mb3JjZV9u",
-            "YW1pbmdfc3R5bGUYByABKA4yLi5nb29nbGUucHJvdG9idWYuRmVhdHVyZVNl",
-            "dC5FbmZvcmNlTmFtaW5nU3R5bGVCSYgBApgBAZgBApgBA5gBBJgBBZgBBpgB",
-            "B5gBCJgBCaIBERIMU1RZTEVfTEVHQUNZGIQHogEOEglTVFlMRTIwMjQY6Qey",
-            "AQMI6QcSoAEKGWRlZmF1bHRfc3ltYm9sX3Zpc2liaWxpdHkYCCABKA4yRS5n",
-            "b29nbGUucHJvdG9idWYuRmVhdHVyZVNldC5WaXNpYmlsaXR5RmVhdHVyZS5E",
-            "ZWZhdWx0U3ltYm9sVmlzaWJpbGl0eUI2iAECmAEBogEPEgpFWFBPUlRfQUxM",
-            "GIQHogEVEhBFWFBPUlRfVE9QX0xFVkVMGOkHsgEDCOkHGqEBChFWaXNpYmls",
-            "aXR5RmVhdHVyZSKBAQoXRGVmYXVsdFN5bWJvbFZpc2liaWxpdHkSJQohREVG",
-            "QVVMVF9TWU1CT0xfVklTSUJJTElUWV9VTktOT1dOEAASDgoKRVhQT1JUX0FM",
-            "TBABEhQKEEVYUE9SVF9UT1BfTEVWRUwQAhINCglMT0NBTF9BTEwQAxIKCgZT",
-            "VFJJQ1QQBEoICAEQgICAgAIiXAoNRmllbGRQcmVzZW5jZRIaChZGSUVMRF9Q",
-            "UkVTRU5DRV9VTktOT1dOEAASDAoIRVhQTElDSVQQARIMCghJTVBMSUNJVBAC",
-            "EhMKD0xFR0FDWV9SRVFVSVJFRBADIjcKCEVudW1UeXBlEhUKEUVOVU1fVFlQ",
-            "RV9VTktOT1dOEAASCAoET1BFThABEgoKBkNMT1NFRBACIlYKFVJlcGVhdGVk",
-            "RmllbGRFbmNvZGluZxIjCh9SRVBFQVRFRF9GSUVMRF9FTkNPRElOR19VTktO",
-            "T1dOEAASCgoGUEFDS0VEEAESDAoIRVhQQU5ERUQQAiJJCg5VdGY4VmFsaWRh",
-            "dGlvbhIbChdVVEY4X1ZBTElEQVRJT05fVU5LTk9XThAAEgoKBlZFUklGWRAC",
-            "EggKBE5PTkUQAyIECAEQASJTCg9NZXNzYWdlRW5jb2RpbmcSHAoYTUVTU0FH",
-            "RV9FTkNPRElOR19VTktOT1dOEAASEwoPTEVOR1RIX1BSRUZJWEVEEAESDQoJ",
-            "REVMSU1JVEVEEAIiSAoKSnNvbkZvcm1hdBIXChNKU09OX0ZPUk1BVF9VTktO",
-            "T1dOEAASCQoFQUxMT1cQARIWChJMRUdBQ1lfQkVTVF9FRkZPUlQQAiJXChJF",
-            "bmZvcmNlTmFtaW5nU3R5bGUSIAocRU5GT1JDRV9OQU1JTkdfU1RZTEVfVU5L",
-            "Tk9XThAAEg0KCVNUWUxFMjAyNBABEhAKDFNUWUxFX0xFR0FDWRACKgYI6AcQ",
-            "i04qBgiLThCQTioGCJBOEJFOSgYI5wcQ6AcimAMKEkZlYXR1cmVTZXREZWZh",
-            "dWx0cxJOCghkZWZhdWx0cxgBIAMoCzI8Lmdvb2dsZS5wcm90b2J1Zi5GZWF0",
-            "dXJlU2V0RGVmYXVsdHMuRmVhdHVyZVNldEVkaXRpb25EZWZhdWx0EjEKD21p",
-            "bmltdW1fZWRpdGlvbhgEIAEoDjIYLmdvb2dsZS5wcm90b2J1Zi5FZGl0aW9u",
-            "EjEKD21heGltdW1fZWRpdGlvbhgFIAEoDjIYLmdvb2dsZS5wcm90b2J1Zi5F",
-            "ZGl0aW9uGssBChhGZWF0dXJlU2V0RWRpdGlvbkRlZmF1bHQSKQoHZWRpdGlv",
-            "bhgDIAEoDjIYLmdvb2dsZS5wcm90b2J1Zi5FZGl0aW9uEjkKFG92ZXJyaWRh",
-            "YmxlX2ZlYXR1cmVzGAQgASgLMhsuZ29vZ2xlLnByb3RvYnVmLkZlYXR1cmVT",
-            "ZXQSMwoOZml4ZWRfZmVhdHVyZXMYBSABKAsyGy5nb29nbGUucHJvdG9idWYu",
-            "RmVhdHVyZVNldEoECAEQAkoECAIQA1IIZmVhdHVyZXMi4wEKDlNvdXJjZUNv",
-            "ZGVJbmZvEjoKCGxvY2F0aW9uGAEgAygLMiguZ29vZ2xlLnByb3RvYnVmLlNv",
-            "dXJjZUNvZGVJbmZvLkxvY2F0aW9uGoYBCghMb2NhdGlvbhIQCgRwYXRoGAEg",
-            "AygFQgIQARIQCgRzcGFuGAIgAygFQgIQARIYChBsZWFkaW5nX2NvbW1lbnRz",
-            "GAMgASgJEhkKEXRyYWlsaW5nX2NvbW1lbnRzGAQgASgJEiEKGWxlYWRpbmdf",
-            "ZGV0YWNoZWRfY29tbWVudHMYBiADKAkqDAiA7Mr/ARCB7Mr/ASKcAgoRR2Vu",
-            "ZXJhdGVkQ29kZUluZm8SQQoKYW5ub3RhdGlvbhgBIAMoCzItLmdvb2dsZS5w",
-            "cm90b2J1Zi5HZW5lcmF0ZWRDb2RlSW5mby5Bbm5vdGF0aW9uGsMBCgpBbm5v",
-            "dGF0aW9uEhAKBHBhdGgYASADKAVCAhABEhMKC3NvdXJjZV9maWxlGAIgASgJ",
-            "Eg0KBWJlZ2luGAMgASgFEgsKA2VuZBgEIAEoBRJICghzZW1hbnRpYxgFIAEo",
-            "DjI2Lmdvb2dsZS5wcm90b2J1Zi5HZW5lcmF0ZWRDb2RlSW5mby5Bbm5vdGF0",
-            "aW9uLlNlbWFudGljIigKCFNlbWFudGljEggKBE5PTkUQABIHCgNTRVQQARIJ",
-            "CgVBTElBUxACKr4CCgdFZGl0aW9uEhMKD0VESVRJT05fVU5LTk9XThAAEhMK",
-            "DkVESVRJT05fTEVHQUNZEIQHEhMKDkVESVRJT05fUFJPVE8yEOYHEhMKDkVE",
-            "SVRJT05fUFJPVE8zEOcHEhEKDEVESVRJT05fMjAyMxDoBxIRCgxFRElUSU9O",
-            "XzIwMjQQ6QcSFQoQRURJVElPTl9VTlNUQUJMRRCPThIXChNFRElUSU9OXzFf",
-            "VEVTVF9PTkxZEAESFwoTRURJVElPTl8yX1RFU1RfT05MWRACEh0KF0VESVRJ",
-            "T05fOTk5OTdfVEVTVF9PTkxZEJ2NBhIdChdFRElUSU9OXzk5OTk4X1RFU1Rf",
-            "T05MWRCejQYSHQoXRURJVElPTl85OTk5OV9URVNUX09OTFkQn40GEhMKC0VE",
-            "SVRJT05fTUFYEP////8HKlUKEFN5bWJvbFZpc2liaWxpdHkSFAoQVklTSUJJ",
-            "TElUWV9VTlNFVBAAEhQKEFZJU0lCSUxJVFlfTE9DQUwQARIVChFWSVNJQklM",
-            "SVRZX0VYUE9SVBACQn4KE2NvbS5nb29nbGUucHJvdG9idWZCEERlc2NyaXB0",
-            "b3JQcm90b3NIAVotZ29vZ2xlLmdvbGFuZy5vcmcvcHJvdG9idWYvdHlwZXMv",
-            "ZGVzY3JpcHRvcnBi+AEBogIDR1BCqgIaR29vZ2xlLlByb3RvYnVmLlJlZmxl",
-            "Y3Rpb24="));
+            "c3NuYW1lGAggASgJEiIKE2phdmFfbXVsdGlwbGVfZmlsZXMYCiABKAg6BWZh",
+            "bHNlEikKHWphdmFfZ2VuZXJhdGVfZXF1YWxzX2FuZF9oYXNoGBQgASgIQgIY",
+            "ARIlChZqYXZhX3N0cmluZ19jaGVja191dGY4GBsgASgIOgVmYWxzZRJGCgxv",
+            "cHRpbWl6ZV9mb3IYCSABKA4yKS5nb29nbGUucHJvdG9idWYuRmlsZU9wdGlv",
+            "bnMuT3B0aW1pemVNb2RlOgVTUEVFRBISCgpnb19wYWNrYWdlGAsgASgJEiIK",
+            "E2NjX2dlbmVyaWNfc2VydmljZXMYECABKAg6BWZhbHNlEiQKFWphdmFfZ2Vu",
+            "ZXJpY19zZXJ2aWNlcxgRIAEoCDoFZmFsc2USIgoTcHlfZ2VuZXJpY19zZXJ2",
+            "aWNlcxgSIAEoCDoFZmFsc2USGQoKZGVwcmVjYXRlZBgXIAEoCDoFZmFsc2US",
+            "HgoQY2NfZW5hYmxlX2FyZW5hcxgfIAEoCDoEdHJ1ZRIZChFvYmpjX2NsYXNz",
+            "X3ByZWZpeBgkIAEoCRIYChBjc2hhcnBfbmFtZXNwYWNlGCUgASgJEhQKDHN3",
+            "aWZ0X3ByZWZpeBgnIAEoCRIYChBwaHBfY2xhc3NfcHJlZml4GCggASgJEhUK",
+            "DXBocF9uYW1lc3BhY2UYKSABKAkSHgoWcGhwX21ldGFkYXRhX25hbWVzcGFj",
+            "ZRgsIAEoCRIUCgxydWJ5X3BhY2thZ2UYLSABKAkSLQoIZmVhdHVyZXMYMiAB",
+            "KAsyGy5nb29nbGUucHJvdG9idWYuRmVhdHVyZVNldBJDChR1bmludGVycHJl",
+            "dGVkX29wdGlvbhjnByADKAsyJC5nb29nbGUucHJvdG9idWYuVW5pbnRlcnBy",
+            "ZXRlZE9wdGlvbiI6CgxPcHRpbWl6ZU1vZGUSCQoFU1BFRUQQARINCglDT0RF",
+            "X1NJWkUQAhIQCgxMSVRFX1JVTlRJTUUQAyoJCOgHEICAgIACSgQIKhArSgQI",
+            "JhAnUhRwaHBfZ2VuZXJpY19zZXJ2aWNlcyLnAgoOTWVzc2FnZU9wdGlvbnMS",
+            "JgoXbWVzc2FnZV9zZXRfd2lyZV9mb3JtYXQYASABKAg6BWZhbHNlEi4KH25v",
+            "X3N0YW5kYXJkX2Rlc2NyaXB0b3JfYWNjZXNzb3IYAiABKAg6BWZhbHNlEhkK",
+            "CmRlcHJlY2F0ZWQYAyABKAg6BWZhbHNlEhEKCW1hcF9lbnRyeRgHIAEoCBIy",
+            "CiZkZXByZWNhdGVkX2xlZ2FjeV9qc29uX2ZpZWxkX2NvbmZsaWN0cxgLIAEo",
+            "CEICGAESLQoIZmVhdHVyZXMYDCABKAsyGy5nb29nbGUucHJvdG9idWYuRmVh",
+            "dHVyZVNldBJDChR1bmludGVycHJldGVkX29wdGlvbhjnByADKAsyJC5nb29n",
+            "bGUucHJvdG9idWYuVW5pbnRlcnByZXRlZE9wdGlvbioJCOgHEICAgIACSgQI",
+            "BBAFSgQIBRAGSgQIBhAHSgQICBAJSgQICRAKIqcLCgxGaWVsZE9wdGlvbnMS",
+            "OgoFY3R5cGUYASABKA4yIy5nb29nbGUucHJvdG9idWYuRmllbGRPcHRpb25z",
+            "LkNUeXBlOgZTVFJJTkcSDgoGcGFja2VkGAIgASgIEj8KBmpzdHlwZRgGIAEo",
+            "DjIkLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE9wdGlvbnMuSlNUeXBlOglKU19O",
+            "T1JNQUwSEwoEbGF6eRgFIAEoCDoFZmFsc2USHgoPdW52ZXJpZmllZF9sYXp5",
+            "GA8gASgIOgVmYWxzZRIZCgpkZXByZWNhdGVkGAMgASgIOgVmYWxzZRIXCgR3",
+            "ZWFrGAogASgIOgVmYWxzZUICGAESGwoMZGVidWdfcmVkYWN0GBAgASgIOgVm",
+            "YWxzZRJACglyZXRlbnRpb24YESABKA4yLS5nb29nbGUucHJvdG9idWYuRmll",
+            "bGRPcHRpb25zLk9wdGlvblJldGVudGlvbhI/Cgd0YXJnZXRzGBMgAygOMi4u",
+            "Z29vZ2xlLnByb3RvYnVmLkZpZWxkT3B0aW9ucy5PcHRpb25UYXJnZXRUeXBl",
+            "EkYKEGVkaXRpb25fZGVmYXVsdHMYFCADKAsyLC5nb29nbGUucHJvdG9idWYu",
+            "RmllbGRPcHRpb25zLkVkaXRpb25EZWZhdWx0Ei0KCGZlYXR1cmVzGBUgASgL",
+            "MhsuZ29vZ2xlLnByb3RvYnVmLkZlYXR1cmVTZXQSRQoPZmVhdHVyZV9zdXBw",
+            "b3J0GBYgASgLMiwuZ29vZ2xlLnByb3RvYnVmLkZpZWxkT3B0aW9ucy5GZWF0",
+            "dXJlU3VwcG9ydBJDChR1bmludGVycHJldGVkX29wdGlvbhjnByADKAsyJC5n",
+            "b29nbGUucHJvdG9idWYuVW5pbnRlcnByZXRlZE9wdGlvbhpKCg5FZGl0aW9u",
+            "RGVmYXVsdBIpCgdlZGl0aW9uGAMgASgOMhguZ29vZ2xlLnByb3RvYnVmLkVk",
+            "aXRpb24SDQoFdmFsdWUYAiABKAkazAEKDkZlYXR1cmVTdXBwb3J0EjQKEmVk",
+            "aXRpb25faW50cm9kdWNlZBgBIAEoDjIYLmdvb2dsZS5wcm90b2J1Zi5FZGl0",
+            "aW9uEjQKEmVkaXRpb25fZGVwcmVjYXRlZBgCIAEoDjIYLmdvb2dsZS5wcm90",
+            "b2J1Zi5FZGl0aW9uEhsKE2RlcHJlY2F0aW9uX3dhcm5pbmcYAyABKAkSMQoP",
+            "ZWRpdGlvbl9yZW1vdmVkGAQgASgOMhguZ29vZ2xlLnByb3RvYnVmLkVkaXRp",
+            "b24iLwoFQ1R5cGUSCgoGU1RSSU5HEAASCAoEQ09SRBABEhAKDFNUUklOR19Q",
+            "SUVDRRACIjUKBkpTVHlwZRINCglKU19OT1JNQUwQABINCglKU19TVFJJTkcQ",
+            "ARINCglKU19OVU1CRVIQAiJVCg9PcHRpb25SZXRlbnRpb24SFQoRUkVURU5U",
+            "SU9OX1VOS05PV04QABIVChFSRVRFTlRJT05fUlVOVElNRRABEhQKEFJFVEVO",
+            "VElPTl9TT1VSQ0UQAiKMAgoQT3B0aW9uVGFyZ2V0VHlwZRIXChNUQVJHRVRf",
+            "VFlQRV9VTktOT1dOEAASFAoQVEFSR0VUX1RZUEVfRklMRRABEh8KG1RBUkdF",
+            "VF9UWVBFX0VYVEVOU0lPTl9SQU5HRRACEhcKE1RBUkdFVF9UWVBFX01FU1NB",
+            "R0UQAxIVChFUQVJHRVRfVFlQRV9GSUVMRBAEEhUKEVRBUkdFVF9UWVBFX09O",
+            "RU9GEAUSFAoQVEFSR0VUX1RZUEVfRU5VTRAGEhoKFlRBUkdFVF9UWVBFX0VO",
+            "VU1fRU5UUlkQBxIXChNUQVJHRVRfVFlQRV9TRVJWSUNFEAgSFgoSVEFSR0VU",
+            "X1RZUEVfTUVUSE9EEAkqCQjoBxCAgICAAkoECAQQBUoECBIQEyKNAQoMT25l",
+            "b2ZPcHRpb25zEi0KCGZlYXR1cmVzGAEgASgLMhsuZ29vZ2xlLnByb3RvYnVm",
+            "LkZlYXR1cmVTZXQSQwoUdW5pbnRlcnByZXRlZF9vcHRpb24Y5wcgAygLMiQu",
+            "Z29vZ2xlLnByb3RvYnVmLlVuaW50ZXJwcmV0ZWRPcHRpb24qCQjoBxCAgICA",
+            "AiL2AQoLRW51bU9wdGlvbnMSEwoLYWxsb3dfYWxpYXMYAiABKAgSGQoKZGVw",
+            "cmVjYXRlZBgDIAEoCDoFZmFsc2USMgomZGVwcmVjYXRlZF9sZWdhY3lfanNv",
+            "bl9maWVsZF9jb25mbGljdHMYBiABKAhCAhgBEi0KCGZlYXR1cmVzGAcgASgL",
+            "MhsuZ29vZ2xlLnByb3RvYnVmLkZlYXR1cmVTZXQSQwoUdW5pbnRlcnByZXRl",
+            "ZF9vcHRpb24Y5wcgAygLMiQuZ29vZ2xlLnByb3RvYnVmLlVuaW50ZXJwcmV0",
+            "ZWRPcHRpb24qCQjoBxCAgICAAkoECAUQBiKQAgoQRW51bVZhbHVlT3B0aW9u",
+            "cxIZCgpkZXByZWNhdGVkGAEgASgIOgVmYWxzZRItCghmZWF0dXJlcxgCIAEo",
+            "CzIbLmdvb2dsZS5wcm90b2J1Zi5GZWF0dXJlU2V0EhsKDGRlYnVnX3JlZGFj",
+            "dBgDIAEoCDoFZmFsc2USRQoPZmVhdHVyZV9zdXBwb3J0GAQgASgLMiwuZ29v",
+            "Z2xlLnByb3RvYnVmLkZpZWxkT3B0aW9ucy5GZWF0dXJlU3VwcG9ydBJDChR1",
+            "bmludGVycHJldGVkX29wdGlvbhjnByADKAsyJC5nb29nbGUucHJvdG9idWYu",
+            "VW5pbnRlcnByZXRlZE9wdGlvbioJCOgHEICAgIACIqoBCg5TZXJ2aWNlT3B0",
+            "aW9ucxItCghmZWF0dXJlcxgiIAEoCzIbLmdvb2dsZS5wcm90b2J1Zi5GZWF0",
+            "dXJlU2V0EhkKCmRlcHJlY2F0ZWQYISABKAg6BWZhbHNlEkMKFHVuaW50ZXJw",
+            "cmV0ZWRfb3B0aW9uGOcHIAMoCzIkLmdvb2dsZS5wcm90b2J1Zi5VbmludGVy",
+            "cHJldGVkT3B0aW9uKgkI6AcQgICAgAIi3AIKDU1ldGhvZE9wdGlvbnMSGQoK",
+            "ZGVwcmVjYXRlZBghIAEoCDoFZmFsc2USXwoRaWRlbXBvdGVuY3lfbGV2ZWwY",
+            "IiABKA4yLy5nb29nbGUucHJvdG9idWYuTWV0aG9kT3B0aW9ucy5JZGVtcG90",
+            "ZW5jeUxldmVsOhNJREVNUE9URU5DWV9VTktOT1dOEi0KCGZlYXR1cmVzGCMg",
+            "ASgLMhsuZ29vZ2xlLnByb3RvYnVmLkZlYXR1cmVTZXQSQwoUdW5pbnRlcnBy",
+            "ZXRlZF9vcHRpb24Y5wcgAygLMiQuZ29vZ2xlLnByb3RvYnVmLlVuaW50ZXJw",
+            "cmV0ZWRPcHRpb24iUAoQSWRlbXBvdGVuY3lMZXZlbBIXChNJREVNUE9URU5D",
+            "WV9VTktOT1dOEAASEwoPTk9fU0lERV9FRkZFQ1RTEAESDgoKSURFTVBPVEVO",
+            "VBACKgkI6AcQgICAgAIingIKE1VuaW50ZXJwcmV0ZWRPcHRpb24SOwoEbmFt",
+            "ZRgCIAMoCzItLmdvb2dsZS5wcm90b2J1Zi5VbmludGVycHJldGVkT3B0aW9u",
+            "Lk5hbWVQYXJ0EhgKEGlkZW50aWZpZXJfdmFsdWUYAyABKAkSGgoScG9zaXRp",
+            "dmVfaW50X3ZhbHVlGAQgASgEEhoKEm5lZ2F0aXZlX2ludF92YWx1ZRgFIAEo",
+            "AxIUCgxkb3VibGVfdmFsdWUYBiABKAESFAoMc3RyaW5nX3ZhbHVlGAcgASgM",
+            "EhcKD2FnZ3JlZ2F0ZV92YWx1ZRgIIAEoCRozCghOYW1lUGFydBIRCgluYW1l",
+            "X3BhcnQYASACKAkSFAoMaXNfZXh0ZW5zaW9uGAIgAigIIoMOCgpGZWF0dXJl",
+            "U2V0EoIBCg5maWVsZF9wcmVzZW5jZRgBIAEoDjIpLmdvb2dsZS5wcm90b2J1",
+            "Zi5GZWF0dXJlU2V0LkZpZWxkUHJlc2VuY2VCP4gBAZgBBJgBAaIBDRIIRVhQ",
+            "TElDSVQYhAeiAQ0SCElNUExJQ0lUGOcHogENEghFWFBMSUNJVBjoB7IBAwjo",
+            "BxJiCgllbnVtX3R5cGUYAiABKA4yJC5nb29nbGUucHJvdG9idWYuRmVhdHVy",
+            "ZVNldC5FbnVtVHlwZUIpiAEBmAEGmAEBogELEgZDTE9TRUQYhAeiAQkSBE9Q",
+            "RU4Y5weyAQMI6AcSgQEKF3JlcGVhdGVkX2ZpZWxkX2VuY29kaW5nGAMgASgO",
+            "MjEuZ29vZ2xlLnByb3RvYnVmLkZlYXR1cmVTZXQuUmVwZWF0ZWRGaWVsZEVu",
+            "Y29kaW5nQi2IAQGYAQSYAQGiAQ0SCEVYUEFOREVEGIQHogELEgZQQUNLRUQY",
+            "5weyAQMI6AcSbgoPdXRmOF92YWxpZGF0aW9uGAQgASgOMiouZ29vZ2xlLnBy",
+            "b3RvYnVmLkZlYXR1cmVTZXQuVXRmOFZhbGlkYXRpb25CKYgBAZgBBJgBAaIB",
+            "CRIETk9ORRiEB6IBCxIGVkVSSUZZGOcHsgEDCOgHEm0KEG1lc3NhZ2VfZW5j",
+            "b2RpbmcYBSABKA4yKy5nb29nbGUucHJvdG9idWYuRmVhdHVyZVNldC5NZXNz",
+            "YWdlRW5jb2RpbmdCJogBAZgBBJgBAaIBFBIPTEVOR1RIX1BSRUZJWEVEGIQH",
+            "sgEDCOgHEnYKC2pzb25fZm9ybWF0GAYgASgOMiYuZ29vZ2xlLnByb3RvYnVm",
+            "LkZlYXR1cmVTZXQuSnNvbkZvcm1hdEI5iAEBmAEDmAEGmAEBogEXEhJMRUdB",
+            "Q1lfQkVTVF9FRkZPUlQYhAeiAQoSBUFMTE9XGOcHsgEDCOgHEpcBChRlbmZv",
+            "cmNlX25hbWluZ19zdHlsZRgHIAEoDjIuLmdvb2dsZS5wcm90b2J1Zi5GZWF0",
+            "dXJlU2V0LkVuZm9yY2VOYW1pbmdTdHlsZUJJiAECmAEBmAECmAEDmAEEmAEF",
+            "mAEGmAEHmAEImAEJogEREgxTVFlMRV9MRUdBQ1kYhAeiAQ4SCVNUWUxFMjAy",
+            "NBjpB7IBAwjpBxKgAQoZZGVmYXVsdF9zeW1ib2xfdmlzaWJpbGl0eRgIIAEo",
+            "DjJFLmdvb2dsZS5wcm90b2J1Zi5GZWF0dXJlU2V0LlZpc2liaWxpdHlGZWF0",
+            "dXJlLkRlZmF1bHRTeW1ib2xWaXNpYmlsaXR5QjaIAQKYAQGiAQ8SCkVYUE9S",
+            "VF9BTEwYhAeiARUSEEVYUE9SVF9UT1BfTEVWRUwY6QeyAQMI6QcaoQEKEVZp",
+            "c2liaWxpdHlGZWF0dXJlIoEBChdEZWZhdWx0U3ltYm9sVmlzaWJpbGl0eRIl",
+            "CiFERUZBVUxUX1NZTUJPTF9WSVNJQklMSVRZX1VOS05PV04QABIOCgpFWFBP",
+            "UlRfQUxMEAESFAoQRVhQT1JUX1RPUF9MRVZFTBACEg0KCUxPQ0FMX0FMTBAD",
+            "EgoKBlNUUklDVBAESggIARCAgICAAiJcCg1GaWVsZFByZXNlbmNlEhoKFkZJ",
+            "RUxEX1BSRVNFTkNFX1VOS05PV04QABIMCghFWFBMSUNJVBABEgwKCElNUExJ",
+            "Q0lUEAISEwoPTEVHQUNZX1JFUVVJUkVEEAMiNwoIRW51bVR5cGUSFQoRRU5V",
+            "TV9UWVBFX1VOS05PV04QABIICgRPUEVOEAESCgoGQ0xPU0VEEAIiVgoVUmVw",
+            "ZWF0ZWRGaWVsZEVuY29kaW5nEiMKH1JFUEVBVEVEX0ZJRUxEX0VOQ09ESU5H",
+            "X1VOS05PV04QABIKCgZQQUNLRUQQARIMCghFWFBBTkRFRBACIkkKDlV0ZjhW",
+            "YWxpZGF0aW9uEhsKF1VURjhfVkFMSURBVElPTl9VTktOT1dOEAASCgoGVkVS",
+            "SUZZEAISCAoETk9ORRADIgQIARABIlMKD01lc3NhZ2VFbmNvZGluZxIcChhN",
+            "RVNTQUdFX0VOQ09ESU5HX1VOS05PV04QABITCg9MRU5HVEhfUFJFRklYRUQQ",
+            "ARINCglERUxJTUlURUQQAiJICgpKc29uRm9ybWF0EhcKE0pTT05fRk9STUFU",
+            "X1VOS05PV04QABIJCgVBTExPVxABEhYKEkxFR0FDWV9CRVNUX0VGRk9SVBAC",
+            "IlcKEkVuZm9yY2VOYW1pbmdTdHlsZRIgChxFTkZPUkNFX05BTUlOR19TVFlM",
+            "RV9VTktOT1dOEAASDQoJU1RZTEUyMDI0EAESEAoMU1RZTEVfTEVHQUNZEAIq",
+            "BgjoBxCLTioGCItOEJBOKgYIkE4QkU5KBgjnBxDoByKYAwoSRmVhdHVyZVNl",
+            "dERlZmF1bHRzEk4KCGRlZmF1bHRzGAEgAygLMjwuZ29vZ2xlLnByb3RvYnVm",
+            "LkZlYXR1cmVTZXREZWZhdWx0cy5GZWF0dXJlU2V0RWRpdGlvbkRlZmF1bHQS",
+            "MQoPbWluaW11bV9lZGl0aW9uGAQgASgOMhguZ29vZ2xlLnByb3RvYnVmLkVk",
+            "aXRpb24SMQoPbWF4aW11bV9lZGl0aW9uGAUgASgOMhguZ29vZ2xlLnByb3Rv",
+            "YnVmLkVkaXRpb24aywEKGEZlYXR1cmVTZXRFZGl0aW9uRGVmYXVsdBIpCgdl",
+            "ZGl0aW9uGAMgASgOMhguZ29vZ2xlLnByb3RvYnVmLkVkaXRpb24SOQoUb3Zl",
+            "cnJpZGFibGVfZmVhdHVyZXMYBCABKAsyGy5nb29nbGUucHJvdG9idWYuRmVh",
+            "dHVyZVNldBIzCg5maXhlZF9mZWF0dXJlcxgFIAEoCzIbLmdvb2dsZS5wcm90",
+            "b2J1Zi5GZWF0dXJlU2V0SgQIARACSgQIAhADUghmZWF0dXJlcyLjAQoOU291",
+            "cmNlQ29kZUluZm8SOgoIbG9jYXRpb24YASADKAsyKC5nb29nbGUucHJvdG9i",
+            "dWYuU291cmNlQ29kZUluZm8uTG9jYXRpb24ahgEKCExvY2F0aW9uEhAKBHBh",
+            "dGgYASADKAVCAhABEhAKBHNwYW4YAiADKAVCAhABEhgKEGxlYWRpbmdfY29t",
+            "bWVudHMYAyABKAkSGQoRdHJhaWxpbmdfY29tbWVudHMYBCABKAkSIQoZbGVh",
+            "ZGluZ19kZXRhY2hlZF9jb21tZW50cxgGIAMoCSoMCIDsyv8BEIHsyv8BIpwC",
+            "ChFHZW5lcmF0ZWRDb2RlSW5mbxJBCgphbm5vdGF0aW9uGAEgAygLMi0uZ29v",
+            "Z2xlLnByb3RvYnVmLkdlbmVyYXRlZENvZGVJbmZvLkFubm90YXRpb24awwEK",
+            "CkFubm90YXRpb24SEAoEcGF0aBgBIAMoBUICEAESEwoLc291cmNlX2ZpbGUY",
+            "AiABKAkSDQoFYmVnaW4YAyABKAUSCwoDZW5kGAQgASgFEkgKCHNlbWFudGlj",
+            "GAUgASgOMjYuZ29vZ2xlLnByb3RvYnVmLkdlbmVyYXRlZENvZGVJbmZvLkFu",
+            "bm90YXRpb24uU2VtYW50aWMiKAoIU2VtYW50aWMSCAoETk9ORRAAEgcKA1NF",
+            "VBABEgkKBUFMSUFTEAIqvgIKB0VkaXRpb24SEwoPRURJVElPTl9VTktOT1dO",
+            "EAASEwoORURJVElPTl9MRUdBQ1kQhAcSEwoORURJVElPTl9QUk9UTzIQ5gcS",
+            "EwoORURJVElPTl9QUk9UTzMQ5wcSEQoMRURJVElPTl8yMDIzEOgHEhEKDEVE",
+            "SVRJT05fMjAyNBDpBxIVChBFRElUSU9OX1VOU1RBQkxFEI9OEhcKE0VESVRJ",
+            "T05fMV9URVNUX09OTFkQARIXChNFRElUSU9OXzJfVEVTVF9PTkxZEAISHQoX",
+            "RURJVElPTl85OTk5N19URVNUX09OTFkQnY0GEh0KF0VESVRJT05fOTk5OThf",
+            "VEVTVF9PTkxZEJ6NBhIdChdFRElUSU9OXzk5OTk5X1RFU1RfT05MWRCfjQYS",
+            "EwoLRURJVElPTl9NQVgQ/////wcqVQoQU3ltYm9sVmlzaWJpbGl0eRIUChBW",
+            "SVNJQklMSVRZX1VOU0VUEAASFAoQVklTSUJJTElUWV9MT0NBTBABEhUKEVZJ",
+            "U0lCSUxJVFlfRVhQT1JUEAJCfgoTY29tLmdvb2dsZS5wcm90b2J1ZkIQRGVz",
+            "Y3JpcHRvclByb3Rvc0gBWi1nb29nbGUuZ29sYW5nLm9yZy9wcm90b2J1Zi90",
+            "eXBlcy9kZXNjcmlwdG9ycGL4AQGiAgNHUEKqAhpHb29nbGUuUHJvdG9idWYu",
+            "UmVmbGVjdGlvbg=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Google.Protobuf.Reflection.Edition), typeof(global::Google.Protobuf.Reflection.SymbolVisibility), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -290,7 +285,7 @@ namespace Google.Protobuf.Reflection {
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.Reflection.FileOptions), global::Google.Protobuf.Reflection.FileOptions.Parser, new[]{ "JavaPackage", "JavaOuterClassname", "JavaMultipleFiles", "JavaGenerateEqualsAndHash", "JavaStringCheckUtf8", "OptimizeFor", "GoPackage", "CcGenericServices", "JavaGenericServices", "PyGenericServices", "Deprecated", "CcEnableArenas", "ObjcClassPrefix", "CsharpNamespace", "SwiftPrefix", "PhpClassPrefix", "PhpNamespace", "PhpMetadataNamespace", "RubyPackage", "Features", "UninterpretedOption" }, null, new[]{ typeof(global::Google.Protobuf.Reflection.FileOptions.Types.OptimizeMode) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.Reflection.MessageOptions), global::Google.Protobuf.Reflection.MessageOptions.Parser, new[]{ "MessageSetWireFormat", "NoStandardDescriptorAccessor", "Deprecated", "MapEntry", "DeprecatedLegacyJsonFieldConflicts", "Features", "UninterpretedOption" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.Reflection.FieldOptions), global::Google.Protobuf.Reflection.FieldOptions.Parser, new[]{ "Ctype", "Packed", "Jstype", "Lazy", "UnverifiedLazy", "Deprecated", "Weak", "DebugRedact", "Retention", "Targets", "EditionDefaults", "Features", "FeatureSupport", "UninterpretedOption" }, null, new[]{ typeof(global::Google.Protobuf.Reflection.FieldOptions.Types.CType), typeof(global::Google.Protobuf.Reflection.FieldOptions.Types.JSType), typeof(global::Google.Protobuf.Reflection.FieldOptions.Types.OptionRetention), typeof(global::Google.Protobuf.Reflection.FieldOptions.Types.OptionTargetType) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.Reflection.FieldOptions.Types.EditionDefault), global::Google.Protobuf.Reflection.FieldOptions.Types.EditionDefault.Parser, new[]{ "Edition", "Value" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport), global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport.Parser, new[]{ "EditionIntroduced", "EditionDeprecated", "DeprecationWarning", "EditionRemoved", "RemovalError" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport), global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport.Parser, new[]{ "EditionIntroduced", "EditionDeprecated", "DeprecationWarning", "EditionRemoved" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.Reflection.OneofOptions), global::Google.Protobuf.Reflection.OneofOptions.Parser, new[]{ "Features", "UninterpretedOption" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.Reflection.EnumOptions), global::Google.Protobuf.Reflection.EnumOptions.Parser, new[]{ "AllowAlias", "Deprecated", "DeprecatedLegacyJsonFieldConflicts", "Features", "UninterpretedOption" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Protobuf.Reflection.EnumValueOptions), global::Google.Protobuf.Reflection.EnumValueOptions.Parser, new[]{ "Deprecated", "Features", "DebugRedact", "FeatureSupport", "UninterpretedOption" }, null, null, null, null),
@@ -378,11 +373,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class FileDescriptorSet : pb::IExtendableMessage<FileDescriptorSet>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<FileDescriptorSet> _parser = new pb::MessageParser<FileDescriptorSet>(() => new FileDescriptorSet());
+    private static readonly pb::MessageParser<FileDescriptorSet> _parser = new pb::MessageParser<FileDescriptorSet>(FileDescriptorSet.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<FileDescriptorSet> _extensions;
     private pb::ExtensionSet<FileDescriptorSet> _Extensions { get { return _extensions; } }
@@ -409,6 +405,26 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static FileDescriptorSet AllocFromPool() {
+        return pb::MessagePool<FileDescriptorSet>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      for (int i = 0; i < file_.Count; i++) {
+        file_[i].Dispose();
+      }
+      file_.Clear();
+      _unknownFields = null;
+      pb::MessagePool<FileDescriptorSet>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -613,11 +629,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class FileDescriptorProto : pb::IMessage<FileDescriptorProto>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<FileDescriptorProto> _parser = new pb::MessageParser<FileDescriptorProto>(() => new FileDescriptorProto());
+    private static readonly pb::MessageParser<FileDescriptorProto> _parser = new pb::MessageParser<FileDescriptorProto>(FileDescriptorProto.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -643,6 +660,55 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static FileDescriptorProto AllocFromPool() {
+        return pb::MessagePool<FileDescriptorProto>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      name_ = "";
+      package_ = "";
+      dependency_.Clear();
+      publicDependency_.Clear();
+      weakDependency_.Clear();
+      optionDependency_.Clear();
+      for (int i = 0; i < messageType_.Count; i++) {
+        messageType_[i].Dispose();
+      }
+      messageType_.Clear();
+      for (int i = 0; i < enumType_.Count; i++) {
+        enumType_[i].Dispose();
+      }
+      enumType_.Clear();
+      for (int i = 0; i < service_.Count; i++) {
+        service_[i].Dispose();
+      }
+      service_.Clear();
+      for (int i = 0; i < extension_.Count; i++) {
+        extension_[i].Dispose();
+      }
+      extension_.Clear();
+      if (options_ != null) {
+        options_.Dispose();
+        options_ = null;
+      }
+      if (sourceCodeInfo_ != null) {
+        sourceCodeInfo_.Dispose();
+        sourceCodeInfo_ = null;
+      }
+      syntax_ = "";
+      edition_ = global::Google.Protobuf.Reflection.Edition.Unknown;
+      _unknownFields = null;
+      pb::MessagePool<FileDescriptorProto>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1138,13 +1204,13 @@ namespace Google.Protobuf.Reflection {
       extension_.Add(other.extension_);
       if (other.options_ != null) {
         if (options_ == null) {
-          Options = new global::Google.Protobuf.Reflection.FileOptions();
+          Options = global::Google.Protobuf.Reflection.FileOptions.AllocFromPool();
         }
         Options.MergeFrom(other.Options);
       }
       if (other.sourceCodeInfo_ != null) {
         if (sourceCodeInfo_ == null) {
-          SourceCodeInfo = new global::Google.Protobuf.Reflection.SourceCodeInfo();
+          SourceCodeInfo = global::Google.Protobuf.Reflection.SourceCodeInfo.AllocFromPool();
         }
         SourceCodeInfo.MergeFrom(other.SourceCodeInfo);
       }
@@ -1203,14 +1269,14 @@ namespace Google.Protobuf.Reflection {
           }
           case 66: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.FileOptions();
+              Options = global::Google.Protobuf.Reflection.FileOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
           }
           case 74: {
             if (sourceCodeInfo_ == null) {
-              SourceCodeInfo = new global::Google.Protobuf.Reflection.SourceCodeInfo();
+              SourceCodeInfo = global::Google.Protobuf.Reflection.SourceCodeInfo.AllocFromPool();
             }
             input.ReadMessage(SourceCodeInfo);
             break;
@@ -1286,14 +1352,14 @@ namespace Google.Protobuf.Reflection {
           }
           case 66: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.FileOptions();
+              Options = global::Google.Protobuf.Reflection.FileOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
           }
           case 74: {
             if (sourceCodeInfo_ == null) {
-              SourceCodeInfo = new global::Google.Protobuf.Reflection.SourceCodeInfo();
+              SourceCodeInfo = global::Google.Protobuf.Reflection.SourceCodeInfo.AllocFromPool();
             }
             input.ReadMessage(SourceCodeInfo);
             break;
@@ -1332,11 +1398,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DescriptorProto : pb::IMessage<DescriptorProto>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<DescriptorProto> _parser = new pb::MessageParser<DescriptorProto>(() => new DescriptorProto());
+    private static readonly pb::MessageParser<DescriptorProto> _parser = new pb::MessageParser<DescriptorProto>(DescriptorProto.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1362,6 +1429,58 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static DescriptorProto AllocFromPool() {
+        return pb::MessagePool<DescriptorProto>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      name_ = "";
+      for (int i = 0; i < field_.Count; i++) {
+        field_[i].Dispose();
+      }
+      field_.Clear();
+      for (int i = 0; i < extension_.Count; i++) {
+        extension_[i].Dispose();
+      }
+      extension_.Clear();
+      for (int i = 0; i < nestedType_.Count; i++) {
+        nestedType_[i].Dispose();
+      }
+      nestedType_.Clear();
+      for (int i = 0; i < enumType_.Count; i++) {
+        enumType_[i].Dispose();
+      }
+      enumType_.Clear();
+      for (int i = 0; i < extensionRange_.Count; i++) {
+        extensionRange_[i].Dispose();
+      }
+      extensionRange_.Clear();
+      for (int i = 0; i < oneofDecl_.Count; i++) {
+        oneofDecl_[i].Dispose();
+      }
+      oneofDecl_.Clear();
+      if (options_ != null) {
+        options_.Dispose();
+        options_ = null;
+      }
+      for (int i = 0; i < reservedRange_.Count; i++) {
+        reservedRange_[i].Dispose();
+      }
+      reservedRange_.Clear();
+      reservedName_.Clear();
+      visibility_ = global::Google.Protobuf.Reflection.SymbolVisibility.VisibilityUnset;
+      _unknownFields = null;
+      pb::MessagePool<DescriptorProto>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1709,7 +1828,7 @@ namespace Google.Protobuf.Reflection {
       oneofDecl_.Add(other.oneofDecl_);
       if (other.options_ != null) {
         if (options_ == null) {
-          Options = new global::Google.Protobuf.Reflection.MessageOptions();
+          Options = global::Google.Protobuf.Reflection.MessageOptions.AllocFromPool();
         }
         Options.MergeFrom(other.Options);
       }
@@ -1763,7 +1882,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 58: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.MessageOptions();
+              Options = global::Google.Protobuf.Reflection.MessageOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -1829,7 +1948,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 58: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.MessageOptions();
+              Options = global::Google.Protobuf.Reflection.MessageOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -1862,11 +1981,12 @@ namespace Google.Protobuf.Reflection {
     public static partial class Types {
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class ExtensionRange : pb::IMessage<ExtensionRange>
+          , global::System.IDisposable
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<ExtensionRange> _parser = new pb::MessageParser<ExtensionRange>(() => new ExtensionRange());
+        private static readonly pb::MessageParser<ExtensionRange> _parser = new pb::MessageParser<ExtensionRange>(ExtensionRange.AllocFromPool);
         private pb::UnknownFieldSet _unknownFields;
         private int _hasBits0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1892,6 +2012,29 @@ namespace Google.Protobuf.Reflection {
         }
 
         partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static ExtensionRange AllocFromPool() {
+            return pb::MessagePool<ExtensionRange>.Require();
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void Dispose() {
+          OnDispose();
+          _hasBits0 = 0;
+          start_ = 0;
+          end_ = 0;
+          if (options_ != null) {
+            options_.Dispose();
+            options_ = null;
+          }
+          _unknownFields = null;
+          pb::MessagePool<ExtensionRange>.Release(this);
+        }
+
+        partial void OnDispose();
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2100,7 +2243,7 @@ namespace Google.Protobuf.Reflection {
           }
           if (other.options_ != null) {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.ExtensionRangeOptions();
+              Options = global::Google.Protobuf.Reflection.ExtensionRangeOptions.AllocFromPool();
             }
             Options.MergeFrom(other.Options);
           }
@@ -2133,7 +2276,7 @@ namespace Google.Protobuf.Reflection {
               }
               case 26: {
                 if (options_ == null) {
-                  Options = new global::Google.Protobuf.Reflection.ExtensionRangeOptions();
+                  Options = global::Google.Protobuf.Reflection.ExtensionRangeOptions.AllocFromPool();
                 }
                 input.ReadMessage(Options);
                 break;
@@ -2167,7 +2310,7 @@ namespace Google.Protobuf.Reflection {
               }
               case 26: {
                 if (options_ == null) {
-                  Options = new global::Google.Protobuf.Reflection.ExtensionRangeOptions();
+                  Options = global::Google.Protobuf.Reflection.ExtensionRangeOptions.AllocFromPool();
                 }
                 input.ReadMessage(Options);
                 break;
@@ -2186,11 +2329,12 @@ namespace Google.Protobuf.Reflection {
       /// </summary>
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class ReservedRange : pb::IMessage<ReservedRange>
+          , global::System.IDisposable
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<ReservedRange> _parser = new pb::MessageParser<ReservedRange>(() => new ReservedRange());
+        private static readonly pb::MessageParser<ReservedRange> _parser = new pb::MessageParser<ReservedRange>(ReservedRange.AllocFromPool);
         private pb::UnknownFieldSet _unknownFields;
         private int _hasBits0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2216,6 +2360,25 @@ namespace Google.Protobuf.Reflection {
         }
 
         partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static ReservedRange AllocFromPool() {
+            return pb::MessagePool<ReservedRange>.Require();
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void Dispose() {
+          OnDispose();
+          _hasBits0 = 0;
+          start_ = 0;
+          end_ = 0;
+          _unknownFields = null;
+          pb::MessagePool<ReservedRange>.Release(this);
+        }
+
+        partial void OnDispose();
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2464,11 +2627,12 @@ namespace Google.Protobuf.Reflection {
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExtensionRangeOptions : pb::IExtendableMessage<ExtensionRangeOptions>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<ExtensionRangeOptions> _parser = new pb::MessageParser<ExtensionRangeOptions>(() => new ExtensionRangeOptions());
+    private static readonly pb::MessageParser<ExtensionRangeOptions> _parser = new pb::MessageParser<ExtensionRangeOptions>(ExtensionRangeOptions.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<ExtensionRangeOptions> _extensions;
     private pb::ExtensionSet<ExtensionRangeOptions> _Extensions { get { return _extensions; } }
@@ -2496,6 +2660,36 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static ExtensionRangeOptions AllocFromPool() {
+        return pb::MessagePool<ExtensionRangeOptions>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      for (int i = 0; i < uninterpretedOption_.Count; i++) {
+        uninterpretedOption_[i].Dispose();
+      }
+      uninterpretedOption_.Clear();
+      for (int i = 0; i < declaration_.Count; i++) {
+        declaration_[i].Dispose();
+      }
+      declaration_.Clear();
+      if (features_ != null) {
+        features_.Dispose();
+        features_ = null;
+      }
+      verification_ = global::Google.Protobuf.Reflection.ExtensionRangeOptions.Types.VerificationState.Unverified;
+      _unknownFields = null;
+      pb::MessagePool<ExtensionRangeOptions>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2719,7 +2913,7 @@ namespace Google.Protobuf.Reflection {
       declaration_.Add(other.declaration_);
       if (other.features_ != null) {
         if (features_ == null) {
-          Features = new global::Google.Protobuf.Reflection.FeatureSet();
+          Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
         }
         Features.MergeFrom(other.Features);
       }
@@ -2758,7 +2952,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 402: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -2798,7 +2992,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 402: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -2852,11 +3046,12 @@ namespace Google.Protobuf.Reflection {
 
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class Declaration : pb::IMessage<Declaration>
+          , global::System.IDisposable
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<Declaration> _parser = new pb::MessageParser<Declaration>(() => new Declaration());
+        private static readonly pb::MessageParser<Declaration> _parser = new pb::MessageParser<Declaration>(Declaration.AllocFromPool);
         private pb::UnknownFieldSet _unknownFields;
         private int _hasBits0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2882,6 +3077,28 @@ namespace Google.Protobuf.Reflection {
         }
 
         partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static Declaration AllocFromPool() {
+            return pb::MessagePool<Declaration>.Require();
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void Dispose() {
+          OnDispose();
+          _hasBits0 = 0;
+          number_ = 0;
+          fullName_ = "";
+          type_ = "";
+          reserved_ = false;
+          repeated_ = false;
+          _unknownFields = null;
+          pb::MessagePool<Declaration>.Release(this);
+        }
+
+        partial void OnDispose();
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3302,11 +3519,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class FieldDescriptorProto : pb::IMessage<FieldDescriptorProto>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<FieldDescriptorProto> _parser = new pb::MessageParser<FieldDescriptorProto>(() => new FieldDescriptorProto());
+    private static readonly pb::MessageParser<FieldDescriptorProto> _parser = new pb::MessageParser<FieldDescriptorProto>(FieldDescriptorProto.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3332,6 +3550,37 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static FieldDescriptorProto AllocFromPool() {
+        return pb::MessagePool<FieldDescriptorProto>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      name_ = "";
+      number_ = 0;
+      label_ = global::Google.Protobuf.Reflection.FieldDescriptorProto.Types.Label.Optional;
+      type_ = global::Google.Protobuf.Reflection.FieldDescriptorProto.Types.Type.Double;
+      typeName_ = "";
+      extendee_ = "";
+      defaultValue_ = "";
+      oneofIndex_ = 0;
+      jsonName_ = "";
+      if (options_ != null) {
+        options_.Dispose();
+        options_ = null;
+      }
+      proto3Optional_ = false;
+      _unknownFields = null;
+      pb::MessagePool<FieldDescriptorProto>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3932,7 +4181,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.options_ != null) {
         if (options_ == null) {
-          Options = new global::Google.Protobuf.Reflection.FieldOptions();
+          Options = global::Google.Protobuf.Reflection.FieldOptions.AllocFromPool();
         }
         Options.MergeFrom(other.Options);
       }
@@ -3988,7 +4237,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 66: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.FieldOptions();
+              Options = global::Google.Protobuf.Reflection.FieldOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -4054,7 +4303,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 66: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.FieldOptions();
+              Options = global::Google.Protobuf.Reflection.FieldOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -4157,11 +4406,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class OneofDescriptorProto : pb::IMessage<OneofDescriptorProto>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<OneofDescriptorProto> _parser = new pb::MessageParser<OneofDescriptorProto>(() => new OneofDescriptorProto());
+    private static readonly pb::MessageParser<OneofDescriptorProto> _parser = new pb::MessageParser<OneofDescriptorProto>(OneofDescriptorProto.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4186,6 +4436,27 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static OneofDescriptorProto AllocFromPool() {
+        return pb::MessagePool<OneofDescriptorProto>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      name_ = "";
+      if (options_ != null) {
+        options_.Dispose();
+        options_ = null;
+      }
+      _unknownFields = null;
+      pb::MessagePool<OneofDescriptorProto>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4342,7 +4613,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.options_ != null) {
         if (options_ == null) {
-          Options = new global::Google.Protobuf.Reflection.OneofOptions();
+          Options = global::Google.Protobuf.Reflection.OneofOptions.AllocFromPool();
         }
         Options.MergeFrom(other.Options);
       }
@@ -4371,7 +4642,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 18: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.OneofOptions();
+              Options = global::Google.Protobuf.Reflection.OneofOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -4401,7 +4672,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 18: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.OneofOptions();
+              Options = global::Google.Protobuf.Reflection.OneofOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -4418,11 +4689,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class EnumDescriptorProto : pb::IMessage<EnumDescriptorProto>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<EnumDescriptorProto> _parser = new pb::MessageParser<EnumDescriptorProto>(() => new EnumDescriptorProto());
+    private static readonly pb::MessageParser<EnumDescriptorProto> _parser = new pb::MessageParser<EnumDescriptorProto>(EnumDescriptorProto.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4448,6 +4720,38 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static EnumDescriptorProto AllocFromPool() {
+        return pb::MessagePool<EnumDescriptorProto>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      name_ = "";
+      for (int i = 0; i < value_.Count; i++) {
+        value_[i].Dispose();
+      }
+      value_.Clear();
+      if (options_ != null) {
+        options_.Dispose();
+        options_ = null;
+      }
+      for (int i = 0; i < reservedRange_.Count; i++) {
+        reservedRange_[i].Dispose();
+      }
+      reservedRange_.Clear();
+      reservedName_.Clear();
+      visibility_ = global::Google.Protobuf.Reflection.SymbolVisibility.VisibilityUnset;
+      _unknownFields = null;
+      pb::MessagePool<EnumDescriptorProto>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4710,7 +5014,7 @@ namespace Google.Protobuf.Reflection {
       value_.Add(other.value_);
       if (other.options_ != null) {
         if (options_ == null) {
-          Options = new global::Google.Protobuf.Reflection.EnumOptions();
+          Options = global::Google.Protobuf.Reflection.EnumOptions.AllocFromPool();
         }
         Options.MergeFrom(other.Options);
       }
@@ -4748,7 +5052,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 26: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.EnumOptions();
+              Options = global::Google.Protobuf.Reflection.EnumOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -4794,7 +5098,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 26: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.EnumOptions();
+              Options = global::Google.Protobuf.Reflection.EnumOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -4831,11 +5135,12 @@ namespace Google.Protobuf.Reflection {
       /// </summary>
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class EnumReservedRange : pb::IMessage<EnumReservedRange>
+          , global::System.IDisposable
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<EnumReservedRange> _parser = new pb::MessageParser<EnumReservedRange>(() => new EnumReservedRange());
+        private static readonly pb::MessageParser<EnumReservedRange> _parser = new pb::MessageParser<EnumReservedRange>(EnumReservedRange.AllocFromPool);
         private pb::UnknownFieldSet _unknownFields;
         private int _hasBits0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4861,6 +5166,25 @@ namespace Google.Protobuf.Reflection {
         }
 
         partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static EnumReservedRange AllocFromPool() {
+            return pb::MessagePool<EnumReservedRange>.Require();
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void Dispose() {
+          OnDispose();
+          _hasBits0 = 0;
+          start_ = 0;
+          end_ = 0;
+          _unknownFields = null;
+          pb::MessagePool<EnumReservedRange>.Release(this);
+        }
+
+        partial void OnDispose();
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5112,11 +5436,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class EnumValueDescriptorProto : pb::IMessage<EnumValueDescriptorProto>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<EnumValueDescriptorProto> _parser = new pb::MessageParser<EnumValueDescriptorProto>(() => new EnumValueDescriptorProto());
+    private static readonly pb::MessageParser<EnumValueDescriptorProto> _parser = new pb::MessageParser<EnumValueDescriptorProto>(EnumValueDescriptorProto.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5142,6 +5467,29 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static EnumValueDescriptorProto AllocFromPool() {
+        return pb::MessagePool<EnumValueDescriptorProto>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      name_ = "";
+      number_ = 0;
+      if (options_ != null) {
+        options_.Dispose();
+        options_ = null;
+      }
+      _unknownFields = null;
+      pb::MessagePool<EnumValueDescriptorProto>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5343,7 +5691,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.options_ != null) {
         if (options_ == null) {
-          Options = new global::Google.Protobuf.Reflection.EnumValueOptions();
+          Options = global::Google.Protobuf.Reflection.EnumValueOptions.AllocFromPool();
         }
         Options.MergeFrom(other.Options);
       }
@@ -5376,7 +5724,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 26: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.EnumValueOptions();
+              Options = global::Google.Protobuf.Reflection.EnumValueOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -5410,7 +5758,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 26: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.EnumValueOptions();
+              Options = global::Google.Protobuf.Reflection.EnumValueOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -5427,11 +5775,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ServiceDescriptorProto : pb::IMessage<ServiceDescriptorProto>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<ServiceDescriptorProto> _parser = new pb::MessageParser<ServiceDescriptorProto>(() => new ServiceDescriptorProto());
+    private static readonly pb::MessageParser<ServiceDescriptorProto> _parser = new pb::MessageParser<ServiceDescriptorProto>(ServiceDescriptorProto.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5456,6 +5805,31 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static ServiceDescriptorProto AllocFromPool() {
+        return pb::MessagePool<ServiceDescriptorProto>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      name_ = "";
+      for (int i = 0; i < method_.Count; i++) {
+        method_[i].Dispose();
+      }
+      method_.Clear();
+      if (options_ != null) {
+        options_.Dispose();
+        options_ = null;
+      }
+      _unknownFields = null;
+      pb::MessagePool<ServiceDescriptorProto>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5630,7 +6004,7 @@ namespace Google.Protobuf.Reflection {
       method_.Add(other.method_);
       if (other.options_ != null) {
         if (options_ == null) {
-          Options = new global::Google.Protobuf.Reflection.ServiceOptions();
+          Options = global::Google.Protobuf.Reflection.ServiceOptions.AllocFromPool();
         }
         Options.MergeFrom(other.Options);
       }
@@ -5663,7 +6037,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 26: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.ServiceOptions();
+              Options = global::Google.Protobuf.Reflection.ServiceOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -5697,7 +6071,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 26: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.ServiceOptions();
+              Options = global::Google.Protobuf.Reflection.ServiceOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -5714,11 +6088,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class MethodDescriptorProto : pb::IMessage<MethodDescriptorProto>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<MethodDescriptorProto> _parser = new pb::MessageParser<MethodDescriptorProto>(() => new MethodDescriptorProto());
+    private static readonly pb::MessageParser<MethodDescriptorProto> _parser = new pb::MessageParser<MethodDescriptorProto>(MethodDescriptorProto.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5744,6 +6119,32 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static MethodDescriptorProto AllocFromPool() {
+        return pb::MessagePool<MethodDescriptorProto>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      name_ = "";
+      inputType_ = "";
+      outputType_ = "";
+      if (options_ != null) {
+        options_.Dispose();
+        options_ = null;
+      }
+      clientStreaming_ = false;
+      serverStreaming_ = false;
+      _unknownFields = null;
+      pb::MessagePool<MethodDescriptorProto>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -6079,7 +6480,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.options_ != null) {
         if (options_ == null) {
-          Options = new global::Google.Protobuf.Reflection.MethodOptions();
+          Options = global::Google.Protobuf.Reflection.MethodOptions.AllocFromPool();
         }
         Options.MergeFrom(other.Options);
       }
@@ -6122,7 +6523,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 34: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.MethodOptions();
+              Options = global::Google.Protobuf.Reflection.MethodOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -6168,7 +6569,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 34: {
             if (options_ == null) {
-              Options = new global::Google.Protobuf.Reflection.MethodOptions();
+              Options = global::Google.Protobuf.Reflection.MethodOptions.AllocFromPool();
             }
             input.ReadMessage(Options);
             break;
@@ -6190,11 +6591,12 @@ namespace Google.Protobuf.Reflection {
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class FileOptions : pb::IExtendableMessage<FileOptions>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<FileOptions> _parser = new pb::MessageParser<FileOptions>(() => new FileOptions());
+    private static readonly pb::MessageParser<FileOptions> _parser = new pb::MessageParser<FileOptions>(FileOptions.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<FileOptions> _extensions;
     private pb::ExtensionSet<FileOptions> _Extensions { get { return _extensions; } }
@@ -6222,6 +6624,50 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static FileOptions AllocFromPool() {
+        return pb::MessagePool<FileOptions>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      javaPackage_ = "";
+      javaOuterClassname_ = "";
+      javaMultipleFiles_ = false;
+      javaGenerateEqualsAndHash_ = false;
+      javaStringCheckUtf8_ = false;
+      optimizeFor_ = global::Google.Protobuf.Reflection.FileOptions.Types.OptimizeMode.Speed;
+      goPackage_ = "";
+      ccGenericServices_ = false;
+      javaGenericServices_ = false;
+      pyGenericServices_ = false;
+      deprecated_ = false;
+      ccEnableArenas_ = true;
+      objcClassPrefix_ = "";
+      csharpNamespace_ = "";
+      swiftPrefix_ = "";
+      phpClassPrefix_ = "";
+      phpNamespace_ = "";
+      phpMetadataNamespace_ = "";
+      rubyPackage_ = "";
+      if (features_ != null) {
+        features_.Dispose();
+        features_ = null;
+      }
+      for (int i = 0; i < uninterpretedOption_.Count; i++) {
+        uninterpretedOption_[i].Dispose();
+      }
+      uninterpretedOption_.Clear();
+      _unknownFields = null;
+      pb::MessagePool<FileOptions>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -7305,7 +7751,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.features_ != null) {
         if (features_ == null) {
-          Features = new global::Google.Protobuf.Reflection.FeatureSet();
+          Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
         }
         Features.MergeFrom(other.Features);
       }
@@ -7410,7 +7856,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 402: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -7518,7 +7964,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 402: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -7584,11 +8030,12 @@ namespace Google.Protobuf.Reflection {
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class MessageOptions : pb::IExtendableMessage<MessageOptions>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<MessageOptions> _parser = new pb::MessageParser<MessageOptions>(() => new MessageOptions());
+    private static readonly pb::MessageParser<MessageOptions> _parser = new pb::MessageParser<MessageOptions>(MessageOptions.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<MessageOptions> _extensions;
     private pb::ExtensionSet<MessageOptions> _Extensions { get { return _extensions; } }
@@ -7616,6 +8063,36 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static MessageOptions AllocFromPool() {
+        return pb::MessagePool<MessageOptions>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      messageSetWireFormat_ = false;
+      noStandardDescriptorAccessor_ = false;
+      deprecated_ = false;
+      mapEntry_ = false;
+      deprecatedLegacyJsonFieldConflicts_ = false;
+      if (features_ != null) {
+        features_.Dispose();
+        features_ = null;
+      }
+      for (int i = 0; i < uninterpretedOption_.Count; i++) {
+        uninterpretedOption_[i].Dispose();
+      }
+      uninterpretedOption_.Clear();
+      _unknownFields = null;
+      pb::MessagePool<MessageOptions>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -8061,7 +8538,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.features_ != null) {
         if (features_ == null) {
-          Features = new global::Google.Protobuf.Reflection.FeatureSet();
+          Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
         }
         Features.MergeFrom(other.Features);
       }
@@ -8110,7 +8587,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 98: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -8162,7 +8639,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 98: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -8202,11 +8679,12 @@ namespace Google.Protobuf.Reflection {
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class FieldOptions : pb::IExtendableMessage<FieldOptions>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<FieldOptions> _parser = new pb::MessageParser<FieldOptions>(() => new FieldOptions());
+    private static readonly pb::MessageParser<FieldOptions> _parser = new pb::MessageParser<FieldOptions>(FieldOptions.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<FieldOptions> _extensions;
     private pb::ExtensionSet<FieldOptions> _Extensions { get { return _extensions; } }
@@ -8234,6 +8712,49 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static FieldOptions AllocFromPool() {
+        return pb::MessagePool<FieldOptions>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      ctype_ = global::Google.Protobuf.Reflection.FieldOptions.Types.CType.String;
+      packed_ = false;
+      jstype_ = global::Google.Protobuf.Reflection.FieldOptions.Types.JSType.JsNormal;
+      lazy_ = false;
+      unverifiedLazy_ = false;
+      deprecated_ = false;
+      weak_ = false;
+      debugRedact_ = false;
+      retention_ = global::Google.Protobuf.Reflection.FieldOptions.Types.OptionRetention.RetentionUnknown;
+      targets_.Clear();
+      for (int i = 0; i < editionDefaults_.Count; i++) {
+        editionDefaults_[i].Dispose();
+      }
+      editionDefaults_.Clear();
+      if (features_ != null) {
+        features_.Dispose();
+        features_ = null;
+      }
+      if (featureSupport_ != null) {
+        featureSupport_.Dispose();
+        featureSupport_ = null;
+      }
+      for (int i = 0; i < uninterpretedOption_.Count; i++) {
+        uninterpretedOption_[i].Dispose();
+      }
+      uninterpretedOption_.Clear();
+      _unknownFields = null;
+      pb::MessagePool<FieldOptions>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -8925,13 +9446,13 @@ namespace Google.Protobuf.Reflection {
       editionDefaults_.Add(other.editionDefaults_);
       if (other.features_ != null) {
         if (features_ == null) {
-          Features = new global::Google.Protobuf.Reflection.FeatureSet();
+          Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
         }
         Features.MergeFrom(other.Features);
       }
       if (other.featureSupport_ != null) {
         if (featureSupport_ == null) {
-          FeatureSupport = new global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport();
+          FeatureSupport = global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport.AllocFromPool();
         }
         FeatureSupport.MergeFrom(other.FeatureSupport);
       }
@@ -9005,14 +9526,14 @@ namespace Google.Protobuf.Reflection {
           }
           case 170: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
           }
           case 178: {
             if (featureSupport_ == null) {
-              FeatureSupport = new global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport();
+              FeatureSupport = global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport.AllocFromPool();
             }
             input.ReadMessage(FeatureSupport);
             break;
@@ -9089,14 +9610,14 @@ namespace Google.Protobuf.Reflection {
           }
           case 170: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
           }
           case 178: {
             if (featureSupport_ == null) {
-              FeatureSupport = new global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport();
+              FeatureSupport = global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport.AllocFromPool();
             }
             input.ReadMessage(FeatureSupport);
             break;
@@ -9198,11 +9719,12 @@ namespace Google.Protobuf.Reflection {
 
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class EditionDefault : pb::IMessage<EditionDefault>
+          , global::System.IDisposable
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<EditionDefault> _parser = new pb::MessageParser<EditionDefault>(() => new EditionDefault());
+        private static readonly pb::MessageParser<EditionDefault> _parser = new pb::MessageParser<EditionDefault>(EditionDefault.AllocFromPool);
         private pb::UnknownFieldSet _unknownFields;
         private int _hasBits0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9228,6 +9750,25 @@ namespace Google.Protobuf.Reflection {
         }
 
         partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static EditionDefault AllocFromPool() {
+            return pb::MessagePool<EditionDefault>.Require();
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void Dispose() {
+          OnDispose();
+          _hasBits0 = 0;
+          edition_ = global::Google.Protobuf.Reflection.Edition.Unknown;
+          value_ = "";
+          _unknownFields = null;
+          pb::MessagePool<EditionDefault>.Release(this);
+        }
+
+        partial void OnDispose();
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -9470,11 +10011,12 @@ namespace Google.Protobuf.Reflection {
       /// </summary>
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class FeatureSupport : pb::IMessage<FeatureSupport>
+          , global::System.IDisposable
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<FeatureSupport> _parser = new pb::MessageParser<FeatureSupport>(() => new FeatureSupport());
+        private static readonly pb::MessageParser<FeatureSupport> _parser = new pb::MessageParser<FeatureSupport>(FeatureSupport.AllocFromPool);
         private pb::UnknownFieldSet _unknownFields;
         private int _hasBits0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9503,13 +10045,33 @@ namespace Google.Protobuf.Reflection {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static FeatureSupport AllocFromPool() {
+            return pb::MessagePool<FeatureSupport>.Require();
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void Dispose() {
+          OnDispose();
+          _hasBits0 = 0;
+          editionIntroduced_ = global::Google.Protobuf.Reflection.Edition.Unknown;
+          editionDeprecated_ = global::Google.Protobuf.Reflection.Edition.Unknown;
+          deprecationWarning_ = "";
+          editionRemoved_ = global::Google.Protobuf.Reflection.Edition.Unknown;
+          _unknownFields = null;
+          pb::MessagePool<FeatureSupport>.Release(this);
+        }
+
+        partial void OnDispose();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public FeatureSupport(FeatureSupport other) : this() {
           _hasBits0 = other._hasBits0;
           editionIntroduced_ = other.editionIntroduced_;
           editionDeprecated_ = other.editionDeprecated_;
           deprecationWarning_ = other.deprecationWarning_;
           editionRemoved_ = other.editionRemoved_;
-          removalError_ = other.removalError_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -9644,36 +10206,6 @@ namespace Google.Protobuf.Reflection {
           _hasBits0 &= ~4;
         }
 
-        /// <summary>Field number for the "removal_error" field.</summary>
-        public const int RemovalErrorFieldNumber = 5;
-        private readonly static string RemovalErrorDefaultValue = "";
-
-        private string removalError_;
-        /// <summary>
-        /// The removal error text if this feature is used after the edition it was
-        /// removed in.
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public string RemovalError {
-          get { return removalError_ ?? RemovalErrorDefaultValue; }
-          set {
-            removalError_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-          }
-        }
-        /// <summary>Gets whether the "removal_error" field is set</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public bool HasRemovalError {
-          get { return removalError_ != null; }
-        }
-        /// <summary>Clears the value of the "removal_error" field</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void ClearRemovalError() {
-          removalError_ = null;
-        }
-
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
@@ -9693,7 +10225,6 @@ namespace Google.Protobuf.Reflection {
           if (EditionDeprecated != other.EditionDeprecated) return false;
           if (DeprecationWarning != other.DeprecationWarning) return false;
           if (EditionRemoved != other.EditionRemoved) return false;
-          if (RemovalError != other.RemovalError) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -9705,7 +10236,6 @@ namespace Google.Protobuf.Reflection {
           if (HasEditionDeprecated) hash ^= EditionDeprecated.GetHashCode();
           if (HasDeprecationWarning) hash ^= DeprecationWarning.GetHashCode();
           if (HasEditionRemoved) hash ^= EditionRemoved.GetHashCode();
-          if (HasRemovalError) hash ^= RemovalError.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -9740,10 +10270,6 @@ namespace Google.Protobuf.Reflection {
             output.WriteRawTag(32);
             output.WriteEnum((int) EditionRemoved);
           }
-          if (HasRemovalError) {
-            output.WriteRawTag(42);
-            output.WriteString(RemovalError);
-          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -9770,10 +10296,6 @@ namespace Google.Protobuf.Reflection {
             output.WriteRawTag(32);
             output.WriteEnum((int) EditionRemoved);
           }
-          if (HasRemovalError) {
-            output.WriteRawTag(42);
-            output.WriteString(RemovalError);
-          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
           }
@@ -9795,9 +10317,6 @@ namespace Google.Protobuf.Reflection {
           }
           if (HasEditionRemoved) {
             size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) EditionRemoved);
-          }
-          if (HasRemovalError) {
-            size += 1 + pb::CodedOutputStream.ComputeStringSize(RemovalError);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -9822,9 +10341,6 @@ namespace Google.Protobuf.Reflection {
           }
           if (other.HasEditionRemoved) {
             EditionRemoved = other.EditionRemoved;
-          }
-          if (other.HasRemovalError) {
-            RemovalError = other.RemovalError;
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
@@ -9859,10 +10375,6 @@ namespace Google.Protobuf.Reflection {
               }
               case 32: {
                 EditionRemoved = (global::Google.Protobuf.Reflection.Edition) input.ReadEnum();
-                break;
-              }
-              case 42: {
-                RemovalError = input.ReadString();
                 break;
               }
             }
@@ -9900,10 +10412,6 @@ namespace Google.Protobuf.Reflection {
                 EditionRemoved = (global::Google.Protobuf.Reflection.Edition) input.ReadEnum();
                 break;
               }
-              case 42: {
-                RemovalError = input.ReadString();
-                break;
-              }
             }
           }
         }
@@ -9918,11 +10426,12 @@ namespace Google.Protobuf.Reflection {
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class OneofOptions : pb::IExtendableMessage<OneofOptions>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<OneofOptions> _parser = new pb::MessageParser<OneofOptions>(() => new OneofOptions());
+    private static readonly pb::MessageParser<OneofOptions> _parser = new pb::MessageParser<OneofOptions>(OneofOptions.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<OneofOptions> _extensions;
     private pb::ExtensionSet<OneofOptions> _Extensions { get { return _extensions; } }
@@ -9949,6 +10458,30 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static OneofOptions AllocFromPool() {
+        return pb::MessagePool<OneofOptions>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      if (features_ != null) {
+        features_.Dispose();
+        features_ = null;
+      }
+      for (int i = 0; i < uninterpretedOption_.Count; i++) {
+        uninterpretedOption_[i].Dispose();
+      }
+      uninterpretedOption_.Clear();
+      _unknownFields = null;
+      pb::MessagePool<OneofOptions>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -10104,7 +10637,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.features_ != null) {
         if (features_ == null) {
-          Features = new global::Google.Protobuf.Reflection.FeatureSet();
+          Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
         }
         Features.MergeFrom(other.Features);
       }
@@ -10133,7 +10666,7 @@ namespace Google.Protobuf.Reflection {
             break;
           case 10: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -10165,7 +10698,7 @@ namespace Google.Protobuf.Reflection {
             break;
           case 10: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -10205,11 +10738,12 @@ namespace Google.Protobuf.Reflection {
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class EnumOptions : pb::IExtendableMessage<EnumOptions>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<EnumOptions> _parser = new pb::MessageParser<EnumOptions>(() => new EnumOptions());
+    private static readonly pb::MessageParser<EnumOptions> _parser = new pb::MessageParser<EnumOptions>(EnumOptions.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<EnumOptions> _extensions;
     private pb::ExtensionSet<EnumOptions> _Extensions { get { return _extensions; } }
@@ -10237,6 +10771,34 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static EnumOptions AllocFromPool() {
+        return pb::MessagePool<EnumOptions>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      allowAlias_ = false;
+      deprecated_ = false;
+      deprecatedLegacyJsonFieldConflicts_ = false;
+      if (features_ != null) {
+        features_.Dispose();
+        features_ = null;
+      }
+      for (int i = 0; i < uninterpretedOption_.Count; i++) {
+        uninterpretedOption_[i].Dispose();
+      }
+      uninterpretedOption_.Clear();
+      _unknownFields = null;
+      pb::MessagePool<EnumOptions>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -10546,7 +11108,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.features_ != null) {
         if (features_ == null) {
-          Features = new global::Google.Protobuf.Reflection.FeatureSet();
+          Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
         }
         Features.MergeFrom(other.Features);
       }
@@ -10587,7 +11149,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 58: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -10631,7 +11193,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 58: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -10671,11 +11233,12 @@ namespace Google.Protobuf.Reflection {
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class EnumValueOptions : pb::IExtendableMessage<EnumValueOptions>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<EnumValueOptions> _parser = new pb::MessageParser<EnumValueOptions>(() => new EnumValueOptions());
+    private static readonly pb::MessageParser<EnumValueOptions> _parser = new pb::MessageParser<EnumValueOptions>(EnumValueOptions.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<EnumValueOptions> _extensions;
     private pb::ExtensionSet<EnumValueOptions> _Extensions { get { return _extensions; } }
@@ -10703,6 +11266,37 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static EnumValueOptions AllocFromPool() {
+        return pb::MessagePool<EnumValueOptions>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      deprecated_ = false;
+      if (features_ != null) {
+        features_.Dispose();
+        features_ = null;
+      }
+      debugRedact_ = false;
+      if (featureSupport_ != null) {
+        featureSupport_.Dispose();
+        featureSupport_ = null;
+      }
+      for (int i = 0; i < uninterpretedOption_.Count; i++) {
+        uninterpretedOption_[i].Dispose();
+      }
+      uninterpretedOption_.Clear();
+      _unknownFields = null;
+      pb::MessagePool<EnumValueOptions>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -10984,7 +11578,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.features_ != null) {
         if (features_ == null) {
-          Features = new global::Google.Protobuf.Reflection.FeatureSet();
+          Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
         }
         Features.MergeFrom(other.Features);
       }
@@ -10993,7 +11587,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.featureSupport_ != null) {
         if (featureSupport_ == null) {
-          FeatureSupport = new global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport();
+          FeatureSupport = global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport.AllocFromPool();
         }
         FeatureSupport.MergeFrom(other.FeatureSupport);
       }
@@ -11026,7 +11620,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 18: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -11037,7 +11631,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 34: {
             if (featureSupport_ == null) {
-              FeatureSupport = new global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport();
+              FeatureSupport = global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport.AllocFromPool();
             }
             input.ReadMessage(FeatureSupport);
             break;
@@ -11073,7 +11667,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 18: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -11084,7 +11678,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 34: {
             if (featureSupport_ == null) {
-              FeatureSupport = new global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport();
+              FeatureSupport = global::Google.Protobuf.Reflection.FieldOptions.Types.FeatureSupport.AllocFromPool();
             }
             input.ReadMessage(FeatureSupport);
             break;
@@ -11124,11 +11718,12 @@ namespace Google.Protobuf.Reflection {
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ServiceOptions : pb::IExtendableMessage<ServiceOptions>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<ServiceOptions> _parser = new pb::MessageParser<ServiceOptions>(() => new ServiceOptions());
+    private static readonly pb::MessageParser<ServiceOptions> _parser = new pb::MessageParser<ServiceOptions>(ServiceOptions.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<ServiceOptions> _extensions;
     private pb::ExtensionSet<ServiceOptions> _Extensions { get { return _extensions; } }
@@ -11156,6 +11751,32 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static ServiceOptions AllocFromPool() {
+        return pb::MessagePool<ServiceOptions>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      if (features_ != null) {
+        features_.Dispose();
+        features_ = null;
+      }
+      deprecated_ = false;
+      for (int i = 0; i < uninterpretedOption_.Count; i++) {
+        uninterpretedOption_[i].Dispose();
+      }
+      uninterpretedOption_.Clear();
+      _unknownFields = null;
+      pb::MessagePool<ServiceOptions>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -11359,7 +11980,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.features_ != null) {
         if (features_ == null) {
-          Features = new global::Google.Protobuf.Reflection.FeatureSet();
+          Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
         }
         Features.MergeFrom(other.Features);
       }
@@ -11395,7 +12016,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 274: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -11431,7 +12052,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 274: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -11471,11 +12092,12 @@ namespace Google.Protobuf.Reflection {
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class MethodOptions : pb::IExtendableMessage<MethodOptions>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<MethodOptions> _parser = new pb::MessageParser<MethodOptions>(() => new MethodOptions());
+    private static readonly pb::MessageParser<MethodOptions> _parser = new pb::MessageParser<MethodOptions>(MethodOptions.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<MethodOptions> _extensions;
     private pb::ExtensionSet<MethodOptions> _Extensions { get { return _extensions; } }
@@ -11503,6 +12125,33 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static MethodOptions AllocFromPool() {
+        return pb::MessagePool<MethodOptions>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      deprecated_ = false;
+      idempotencyLevel_ = global::Google.Protobuf.Reflection.MethodOptions.Types.IdempotencyLevel.IdempotencyUnknown;
+      if (features_ != null) {
+        features_.Dispose();
+        features_ = null;
+      }
+      for (int i = 0; i < uninterpretedOption_.Count; i++) {
+        uninterpretedOption_[i].Dispose();
+      }
+      uninterpretedOption_.Clear();
+      _unknownFields = null;
+      pb::MessagePool<MethodOptions>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -11753,7 +12402,7 @@ namespace Google.Protobuf.Reflection {
       }
       if (other.features_ != null) {
         if (features_ == null) {
-          Features = new global::Google.Protobuf.Reflection.FeatureSet();
+          Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
         }
         Features.MergeFrom(other.Features);
       }
@@ -11790,7 +12439,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 282: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -11830,7 +12479,7 @@ namespace Google.Protobuf.Reflection {
           }
           case 282: {
             if (features_ == null) {
-              Features = new global::Google.Protobuf.Reflection.FeatureSet();
+              Features = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             input.ReadMessage(Features);
             break;
@@ -11903,11 +12552,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UninterpretedOption : pb::IMessage<UninterpretedOption>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<UninterpretedOption> _parser = new pb::MessageParser<UninterpretedOption>(() => new UninterpretedOption());
+    private static readonly pb::MessageParser<UninterpretedOption> _parser = new pb::MessageParser<UninterpretedOption>(UninterpretedOption.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11933,6 +12583,33 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static UninterpretedOption AllocFromPool() {
+        return pb::MessagePool<UninterpretedOption>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      for (int i = 0; i < name_.Count; i++) {
+        name_[i].Dispose();
+      }
+      name_.Clear();
+      identifierValue_ = "";
+      positiveIntValue_ = 0UL;
+      negativeIntValue_ = 0L;
+      doubleValue_ = 0D;
+      stringValue_ = pb::ByteString.Empty;
+      aggregateValue_ = "";
+      _unknownFields = null;
+      pb::MessagePool<UninterpretedOption>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -12415,11 +13092,12 @@ namespace Google.Protobuf.Reflection {
       /// </summary>
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class NamePart : pb::IMessage<NamePart>
+          , global::System.IDisposable
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<NamePart> _parser = new pb::MessageParser<NamePart>(() => new NamePart());
+        private static readonly pb::MessageParser<NamePart> _parser = new pb::MessageParser<NamePart>(NamePart.AllocFromPool);
         private pb::UnknownFieldSet _unknownFields;
         private int _hasBits0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12445,6 +13123,25 @@ namespace Google.Protobuf.Reflection {
         }
 
         partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static NamePart AllocFromPool() {
+            return pb::MessagePool<NamePart>.Require();
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void Dispose() {
+          OnDispose();
+          _hasBits0 = 0;
+          namePart_ = "";
+          isExtension_ = false;
+          _unknownFields = null;
+          pb::MessagePool<NamePart>.Release(this);
+        }
+
+        partial void OnDispose();
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -12694,11 +13391,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class FeatureSet : pb::IExtendableMessage<FeatureSet>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<FeatureSet> _parser = new pb::MessageParser<FeatureSet>(() => new FeatureSet());
+    private static readonly pb::MessageParser<FeatureSet> _parser = new pb::MessageParser<FeatureSet>(FeatureSet.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<FeatureSet> _extensions;
     private pb::ExtensionSet<FeatureSet> _Extensions { get { return _extensions; } }
@@ -12726,6 +13424,31 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static FeatureSet AllocFromPool() {
+        return pb::MessagePool<FeatureSet>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      fieldPresence_ = global::Google.Protobuf.Reflection.FeatureSet.Types.FieldPresence.Unknown;
+      enumType_ = global::Google.Protobuf.Reflection.FeatureSet.Types.EnumType.Unknown;
+      repeatedFieldEncoding_ = global::Google.Protobuf.Reflection.FeatureSet.Types.RepeatedFieldEncoding.Unknown;
+      utf8Validation_ = global::Google.Protobuf.Reflection.FeatureSet.Types.Utf8Validation.Unknown;
+      messageEncoding_ = global::Google.Protobuf.Reflection.FeatureSet.Types.MessageEncoding.Unknown;
+      jsonFormat_ = global::Google.Protobuf.Reflection.FeatureSet.Types.JsonFormat.Unknown;
+      enforceNamingStyle_ = global::Google.Protobuf.Reflection.FeatureSet.Types.EnforceNamingStyle.Unknown;
+      defaultSymbolVisibility_ = global::Google.Protobuf.Reflection.FeatureSet.Types.VisibilityFeature.Types.DefaultSymbolVisibility.Unknown;
+      _unknownFields = null;
+      pb::MessagePool<FeatureSet>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -13364,11 +14087,12 @@ namespace Google.Protobuf.Reflection {
 
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class VisibilityFeature : pb::IMessage<VisibilityFeature>
+          , global::System.IDisposable
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<VisibilityFeature> _parser = new pb::MessageParser<VisibilityFeature>(() => new VisibilityFeature());
+        private static readonly pb::MessageParser<VisibilityFeature> _parser = new pb::MessageParser<VisibilityFeature>(VisibilityFeature.AllocFromPool);
         private pb::UnknownFieldSet _unknownFields;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -13393,6 +14117,22 @@ namespace Google.Protobuf.Reflection {
         }
 
         partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static VisibilityFeature AllocFromPool() {
+            return pb::MessagePool<VisibilityFeature>.Require();
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void Dispose() {
+          OnDispose();
+          _unknownFields = null;
+          pb::MessagePool<VisibilityFeature>.Release(this);
+        }
+
+        partial void OnDispose();
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -13566,11 +14306,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class FeatureSetDefaults : pb::IMessage<FeatureSetDefaults>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<FeatureSetDefaults> _parser = new pb::MessageParser<FeatureSetDefaults>(() => new FeatureSetDefaults());
+    private static readonly pb::MessageParser<FeatureSetDefaults> _parser = new pb::MessageParser<FeatureSetDefaults>(FeatureSetDefaults.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13596,6 +14337,29 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static FeatureSetDefaults AllocFromPool() {
+        return pb::MessagePool<FeatureSetDefaults>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      _hasBits0 = 0;
+      for (int i = 0; i < defaults_.Count; i++) {
+        defaults_[i].Dispose();
+      }
+      defaults_.Clear();
+      minimumEdition_ = global::Google.Protobuf.Reflection.Edition.Unknown;
+      maximumEdition_ = global::Google.Protobuf.Reflection.Edition.Unknown;
+      _unknownFields = null;
+      pb::MessagePool<FeatureSetDefaults>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -13876,11 +14640,12 @@ namespace Google.Protobuf.Reflection {
       /// </summary>
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class FeatureSetEditionDefault : pb::IMessage<FeatureSetEditionDefault>
+          , global::System.IDisposable
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<FeatureSetEditionDefault> _parser = new pb::MessageParser<FeatureSetEditionDefault>(() => new FeatureSetEditionDefault());
+        private static readonly pb::MessageParser<FeatureSetEditionDefault> _parser = new pb::MessageParser<FeatureSetEditionDefault>(FeatureSetEditionDefault.AllocFromPool);
         private pb::UnknownFieldSet _unknownFields;
         private int _hasBits0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13906,6 +14671,32 @@ namespace Google.Protobuf.Reflection {
         }
 
         partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static FeatureSetEditionDefault AllocFromPool() {
+            return pb::MessagePool<FeatureSetEditionDefault>.Require();
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void Dispose() {
+          OnDispose();
+          _hasBits0 = 0;
+          edition_ = global::Google.Protobuf.Reflection.Edition.Unknown;
+          if (overridableFeatures_ != null) {
+            overridableFeatures_.Dispose();
+            overridableFeatures_ = null;
+          }
+          if (fixedFeatures_ != null) {
+            fixedFeatures_.Dispose();
+            fixedFeatures_ = null;
+          }
+          _unknownFields = null;
+          pb::MessagePool<FeatureSetEditionDefault>.Release(this);
+        }
+
+        partial void OnDispose();
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -14096,13 +14887,13 @@ namespace Google.Protobuf.Reflection {
           }
           if (other.overridableFeatures_ != null) {
             if (overridableFeatures_ == null) {
-              OverridableFeatures = new global::Google.Protobuf.Reflection.FeatureSet();
+              OverridableFeatures = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             OverridableFeatures.MergeFrom(other.OverridableFeatures);
           }
           if (other.fixedFeatures_ != null) {
             if (fixedFeatures_ == null) {
-              FixedFeatures = new global::Google.Protobuf.Reflection.FeatureSet();
+              FixedFeatures = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
             }
             FixedFeatures.MergeFrom(other.FixedFeatures);
           }
@@ -14131,14 +14922,14 @@ namespace Google.Protobuf.Reflection {
               }
               case 34: {
                 if (overridableFeatures_ == null) {
-                  OverridableFeatures = new global::Google.Protobuf.Reflection.FeatureSet();
+                  OverridableFeatures = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
                 }
                 input.ReadMessage(OverridableFeatures);
                 break;
               }
               case 42: {
                 if (fixedFeatures_ == null) {
-                  FixedFeatures = new global::Google.Protobuf.Reflection.FeatureSet();
+                  FixedFeatures = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
                 }
                 input.ReadMessage(FixedFeatures);
                 break;
@@ -14168,14 +14959,14 @@ namespace Google.Protobuf.Reflection {
               }
               case 34: {
                 if (overridableFeatures_ == null) {
-                  OverridableFeatures = new global::Google.Protobuf.Reflection.FeatureSet();
+                  OverridableFeatures = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
                 }
                 input.ReadMessage(OverridableFeatures);
                 break;
               }
               case 42: {
                 if (fixedFeatures_ == null) {
-                  FixedFeatures = new global::Google.Protobuf.Reflection.FeatureSet();
+                  FixedFeatures = global::Google.Protobuf.Reflection.FeatureSet.AllocFromPool();
                 }
                 input.ReadMessage(FixedFeatures);
                 break;
@@ -14198,11 +14989,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SourceCodeInfo : pb::IExtendableMessage<SourceCodeInfo>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<SourceCodeInfo> _parser = new pb::MessageParser<SourceCodeInfo>(() => new SourceCodeInfo());
+    private static readonly pb::MessageParser<SourceCodeInfo> _parser = new pb::MessageParser<SourceCodeInfo>(SourceCodeInfo.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     internal pb::ExtensionSet<SourceCodeInfo> _extensions;
     private pb::ExtensionSet<SourceCodeInfo> _Extensions { get { return _extensions; } }
@@ -14229,6 +15021,26 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static SourceCodeInfo AllocFromPool() {
+        return pb::MessagePool<SourceCodeInfo>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      for (int i = 0; i < location_.Count; i++) {
+        location_[i].Dispose();
+      }
+      location_.Clear();
+      _unknownFields = null;
+      pb::MessagePool<SourceCodeInfo>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -14478,11 +15290,12 @@ namespace Google.Protobuf.Reflection {
     public static partial class Types {
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class Location : pb::IMessage<Location>
+          , global::System.IDisposable
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<Location> _parser = new pb::MessageParser<Location>(() => new Location());
+        private static readonly pb::MessageParser<Location> _parser = new pb::MessageParser<Location>(Location.AllocFromPool);
         private pb::UnknownFieldSet _unknownFields;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -14507,6 +15320,27 @@ namespace Google.Protobuf.Reflection {
         }
 
         partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static Location AllocFromPool() {
+            return pb::MessagePool<Location>.Require();
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void Dispose() {
+          OnDispose();
+          path_.Clear();
+          span_.Clear();
+          leadingComments_ = "";
+          trailingComments_ = "";
+          leadingDetachedComments_.Clear();
+          _unknownFields = null;
+          pb::MessagePool<Location>.Release(this);
+        }
+
+        partial void OnDispose();
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -14914,11 +15748,12 @@ namespace Google.Protobuf.Reflection {
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GeneratedCodeInfo : pb::IMessage<GeneratedCodeInfo>
+      , global::System.IDisposable
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GeneratedCodeInfo> _parser = new pb::MessageParser<GeneratedCodeInfo>(() => new GeneratedCodeInfo());
+    private static readonly pb::MessageParser<GeneratedCodeInfo> _parser = new pb::MessageParser<GeneratedCodeInfo>(GeneratedCodeInfo.AllocFromPool);
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -14943,6 +15778,26 @@ namespace Google.Protobuf.Reflection {
     }
 
     partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static GeneratedCodeInfo AllocFromPool() {
+        return pb::MessagePool<GeneratedCodeInfo>.Require();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void Dispose() {
+      OnDispose();
+      for (int i = 0; i < annotation_.Count; i++) {
+        annotation_[i].Dispose();
+      }
+      annotation_.Clear();
+      _unknownFields = null;
+      pb::MessagePool<GeneratedCodeInfo>.Release(this);
+    }
+
+    partial void OnDispose();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -15108,11 +15963,12 @@ namespace Google.Protobuf.Reflection {
     public static partial class Types {
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class Annotation : pb::IMessage<Annotation>
+          , global::System.IDisposable
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<Annotation> _parser = new pb::MessageParser<Annotation>(() => new Annotation());
+        private static readonly pb::MessageParser<Annotation> _parser = new pb::MessageParser<Annotation>(Annotation.AllocFromPool);
         private pb::UnknownFieldSet _unknownFields;
         private int _hasBits0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15138,6 +15994,28 @@ namespace Google.Protobuf.Reflection {
         }
 
         partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static Annotation AllocFromPool() {
+            return pb::MessagePool<Annotation>.Require();
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void Dispose() {
+          OnDispose();
+          _hasBits0 = 0;
+          path_.Clear();
+          sourceFile_ = "";
+          begin_ = 0;
+          end_ = 0;
+          semantic_ = global::Google.Protobuf.Reflection.GeneratedCodeInfo.Types.Annotation.Types.Semantic.None;
+          _unknownFields = null;
+          pb::MessagePool<Annotation>.Release(this);
+        }
+
+        partial void OnDispose();
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
